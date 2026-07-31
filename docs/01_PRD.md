@@ -621,3 +621,44 @@ Potential future enhancements:
 - Historical Trend Analytics
 - AI-powered Readiness Analysis
 
+
+# 16. Assumptions & Open Questions
+
+## Assumptions
+
+The following assumptions are made for the MVP phase:
+
+- KPI source data is available in Databricks.
+- Business calendars can be provided for each market.
+- KPI readiness rules can be maintained through configuration.
+- Historical KPI data is available for validation and testing.
+- Databricks SQL Warehouse is accessible from the application.
+
+---
+
+## Open Questions
+
+The following items require further clarification:
+
+### Business
+
+- Final Agency market list
+- Complete KPI inventory per market
+- Ownership of KPI readiness rules
+
+### Data
+
+- Physical source table names
+- Data refresh mechanisms
+- Availability of holiday calendars
+
+### Technology
+
+- Production deployment strategy
+- Authentication requirements
+- Monitoring and alerting requirements
+
+### Future Scope
+
+- Risk channel rollout timeline
+- Banca channel rollout timeline
