@@ -1,6 +1,6 @@
 # DKPI Data Readiness Monitoring Platform
 
-**Version:** 1.0
+**Version:** 1.1
 
 **Status:** Draft
 
