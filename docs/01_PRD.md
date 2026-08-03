@@ -22,7 +22,9 @@ The goal of this project is to build a centralized monitoring dashboard that aut
 
 Build a monitoring platform that:
 
-- Connects to Databricks
+- Supports multiple data sources
+- Uses Excel as the initial MVP data source
+- Supports future migration to Databricks
 - Monitors DKPI data readiness
 - Calculates expected data ready dates
 - Detects missing or delayed data
@@ -34,7 +36,7 @@ Build a monitoring platform that:
 
 # 3. Project Scope
 
-## Phase 1 (MVP11)
+## Phase 1 (MVP1)
 
 Only support:
 
@@ -52,6 +54,41 @@ Only support:
 - Historical Tracking
 
 ---
+### MVP1 Data Source Strategy
+
+Due to current Databricks access restrictions, the MVP1 version shall use Excel files as the primary data source.
+
+Excel files will simulate the structure and content of the corresponding Databricks source tables.
+
+Once Databricks access becomes available, the system should support migration to Databricks through configuration changes only.
+
+No business logic changes should be required during the migration.
+
+## MVP1 Implementation Scope
+
+To reduce implementation risk and validate the architecture, the first MVP implementation will focus on a limited scope.
+
+Channel:
+
+- Agency
+
+Market:
+
+- CN
+
+Frequency:
+
+- Monthly
+
+KPI:
+
+- Selected representative KPIs
+
+Data Source:
+
+- Excel Files
+
+The purpose of MVP1 is to validate the complete monitoring workflow before scaling to additional markets, KPIs and channels.
 
 ## Future Phases
 
@@ -108,6 +145,23 @@ Each market may have:
 - Different data readiness rules
 - Different business calendars
 - Different source tables
+- Different KPI inventories
+
+## KPI Volume
+
+Some markets may contain a large number of KPIs.
+
+Example:
+
+Agency CN
+
+- 109+ KPIs
+
+The architecture should be scalable enough to support:
+
+- Multiple Channels
+- Multiple Markets
+- Thousands of KPI readiness checks
 
 ---
 
@@ -163,13 +217,67 @@ Result:
 
 - Missing
 
+## 5.1 KPI Ready Determination
+
+The platform shall determine KPI readiness based on configurable business rules.
+
+A KPI may be considered Ready when:
+
+- Expected records exist
+- Record count is greater than zero
+- Required KPI value is available
+- Source data passes basic validation checks
+
+Readiness determination logic may vary by KPI and shall be configurable.
+
+Examples:
+
+KPI A:
+
+- Record Exists = Ready
+
+KPI B:
+
+- Record Exists
+- Record Count > 0
+
+KPI C:
+
+- Record Exists
+- KPI Value Not Null
+
+The readiness determination method should be maintained through configuration rather than application code.
+
 ---
 
 # 6. Functional Requirements
 
-## FR-001 Databricks Connection
+## FR-001 Data Source Access
 
-The platform shall support connection to Databricks SQL Warehouse.
+The platform shall support retrieving KPI data from configurable data sources.
+
+Supported Data Sources:
+
+### MVP1
+
+- Excel Files
+
+### Target State
+
+- Databricks SQL Warehouse
+
+### Future
+
+- CSV Files
+- API Sources
+
+The active data source shall be configurable and switchable without changing monitoring logic.
+
+
+---
+## FR-002 Databricks Connection
+
+The platform shall support connection to Databricks SQL Warehouse when access becomes available.
 
 Capabilities:
 
@@ -179,9 +287,9 @@ Capabilities:
 - Retry on transient errors
 - Generate application logs
 
----
 
-## FR-002 Configuration Management
+
+## FR-003 Configuration Management
 
 The platform shall support configuration-driven monitoring.
 
@@ -203,7 +311,7 @@ Example:
 
 ---
 
-## FR-003 Daily Monitoring
+## FR-004 Daily Monitoring
 
 Applicable to:
 
@@ -225,7 +333,7 @@ Output:
 
 ---
 
-## FR-004 Monthly Monitoring
+## FR-005 Monthly Monitoring
 
 Applicable to:
 
@@ -247,7 +355,7 @@ Output:
 
 ---
 
-## FR-005 KPI Readiness Calculation
+## FR-006 KPI Readiness Calculation
 
 The platform shall support configurable readiness rules.
 
@@ -284,7 +392,7 @@ Where:
 
 ---
 
-## FR-006 Dashboard
+## FR-007 Dashboard
 
 The platform shall provide dashboard views including:
 
@@ -366,7 +474,11 @@ Requirements:
 
 # 8. Data Sources
 
-Agency KPI data is sourced from three primary tables.
+Agency KPI data is logically sourced from three primary source tables.
+
+During MVP1 implementation, source data may be provided through Excel files that replicate the contents of the source tables.
+
+When Databricks access becomes available, the platform shall retrieve the same data directly from Databricks without requiring business logic changes.
 
 ## Source Tables
 
@@ -397,7 +509,61 @@ Final mapping will be maintained through configuration.
 
 ---
 
-# 9. KPI Readiness Rules
+# 9. Data Source Abstraction
+
+The platform shall support multiple data providers.
+
+The monitoring engine should not depend on a specific data source implementation.
+
+Supported data sources:
+
+## MVP
+
+- Excel Files
+
+## Target State
+
+- Databricks SQL Warehouse
+
+## Future
+
+- CSV Files
+- API Sources
+
+The data source should be configurable.
+
+Business logic should remain unchanged when switching between data sources.
+
+Example:
+
+Current:
+
+Excel Provider
+
+Future:
+
+Databricks Provider
+
+The dashboard and monitoring engine should not require code changes during the transition.
+
+## Migration Strategy
+
+The MVP1 version will use Excel files due to current Databricks access restrictions.
+
+Excel files shall replicate the structure and content of the corresponding Databricks tables.
+
+The architecture shall support seamless migration from Excel Provider to Databricks Provider.
+
+Migration should require configuration changes only.
+
+No modifications should be required for:
+
+- KPI Readiness Engine
+- Business Day Engine
+- Monitoring Logic
+- Dashboard Components
+
+# 10. KPI Readiness Rules
 
 Each market may have different KPI readiness rules.
 
@@ -413,7 +579,7 @@ The platform must support rule configuration without requiring code changes.
 
 ---
 
-# 10. Configuration Driven Design
+# 11. Configuration Driven Design
 
 The platform shall follow a configuration-driven design.
 
@@ -450,7 +616,21 @@ The platform must be configuration-driven.
 
 Business rules, KPI mappings, source tables and readiness calculations shall be maintained through metadata configurations rather than application code.
 
-# 11. Data Model
+## Additional Architecture Principle
+
+Business logic must be completely independent from the physical data source.
+
+The monitoring platform shall access data through a provider abstraction layer.
+
+Supported providers:
+
+- Excel Provider
+- Databricks Provider
+
+Future providers should be pluggable without affecting business logic.
+
+
+# 12. Data Model
 
 The platform shall maintain the following core entities.
 
@@ -512,7 +692,35 @@ Fields:
 - Status
 - Execution Timestamp
 
-# 12. Non-Functional Requirements
+## 12.1 Configuration Repository
+
+The platform shall maintain monitoring configurations in a dedicated configuration repository.
+
+### MVP1
+
+Configuration files may be maintained using Excel files.
+
+Examples:
+
+- kpi_config.xlsx
+- ready_rule_config.xlsx
+- calendar_config.xlsx
+
+### Target State
+
+Configuration data shall be stored in Databricks configuration tables.
+
+Examples:
+
+- dim_kpi_config
+- dim_ready_rule
+- dim_business_calendar
+
+The system should load configurations dynamically from the active configuration source.
+
+Future migration from Excel to Databricks should require configuration changes only.
+
+# 13. Non-Functional Requirements
 
 ## Performance
 
@@ -553,7 +761,7 @@ Without major code changes.
 
 ---
 
-# 13. Technology Stack
+# 14. Technology Stack
 
 ## Language
 
@@ -561,7 +769,14 @@ Without major code changes.
 
 ## Data Source
 
+### MVP1
+
+- Excel Files
+
+### Target State
+
 - Databricks SQL Warehouse
+
 
 ## Visualization
 
@@ -593,7 +808,7 @@ Without major code changes.
 
 ---
 
-# 14. Success Criteria
+# 15. Success Criteria
 
 The MVP1 is considered successful if:
 
@@ -603,12 +818,15 @@ The MVP1 is considered successful if:
 - Monthly monitoring works correctly
 - Business day calculations work correctly
 - Dashboard displays readiness status correctly
+- Excel-based execution works correctly
+- Excel Provider and Databricks Provider follow the same data contract
+- Migration to Databricks requires configuration changes only
 - Unit tests pass
 - GitHub Copilot Agent is used throughout the development lifecycle
 
 ---
 
-# 15. Future Enhancements
+# 16. Future Enhancements
 
 Potential future enhancements:
 
@@ -622,13 +840,15 @@ Potential future enhancements:
 - AI-powered Readiness Analysis
 
 
-# 16. Assumptions & Open Questions
+# 17. Assumptions & Open Questions
 
 ## Assumptions
 
 The following assumptions are made for the MVP phase:
 
-- KPI source data is available in Databricks.
+- KPI source data can be provided through Excel files during MVP1.
+- KPI source data will eventually be available in Databricks.
+- Excel files can simulate the structure of Databricks source tables.
 - Business calendars can be provided for each market.
 - KPI readiness rules can be maintained through configuration.
 - Historical KPI data is available for validation and testing.
@@ -662,3 +882,70 @@ The following items require further clarification:
 
 - Risk channel rollout timeline
 - Banca channel rollout timeline
+
+# 18. Risks
+
+## Access Risk
+
+Databricks access is currently unavailable.
+
+Impact:
+
+- Direct integration cannot be validated during MVP1.
+
+Mitigation:
+
+- Use Excel Provider during MVP1.
+- Ensure Excel structure matches Databricks table structure.
+- Implement Data Source Abstraction layer.
+
+---
+
+## Business Rule Risk
+
+Not all KPI readiness rules may be fully documented.
+
+Impact:
+
+- Incorrect readiness calculations.
+
+Mitigation:
+
+- Maintain readiness rules through configuration.
+- Allow rule updates without code changes.
+
+---
+
+## Market Calendar Risk
+
+Holiday calendars may vary by market.
+
+Impact:
+
+- Incorrect business day calculations.
+
+Mitigation:
+
+- Maintain market-specific business calendars.
+- Support future calendar updates.
+
+---
+
+## Scalability Risk
+
+The solution may need to support:
+
+- 3 Channels
+- 10+ Markets
+- 100+ KPIs per Market
+
+Impact:
+
+- Performance degradation
+- Complex rule maintenance
+
+Mitigation:
+
+- Configuration Driven Design
+- Rule Engine Architecture
+- Data Provider Abstraction
