@@ -24,6 +24,8 @@ The architecture is built around a configuration-driven monitoring engine with a
 - Uses configuration metadata to drive monitoring logic.
 - Supports Excel files in MVP and future Databricks-backed configuration tables.
 
+The Configuration Repository owns configuration concerns. It loads and normalizes configuration data, validates it, resolves active KPI definitions, effective-dated ready rules, business calendars, and source mappings, and returns typed domain objects to the monitoring engine. Providers own only physical source access and provider-level normalization; they do not resolve business configuration or apply readiness logic.
+
 ## Business Calendar Layer
 - Encapsulates market-specific business day rules.
 - Supports public holidays and weekends.
@@ -44,7 +46,7 @@ The architecture is built around a configuration-driven monitoring engine with a
 - Stores KPI monitoring results in a dedicated result repository.
 - Persists fields: channel, market, KPI name, frequency, expected ready date, actual ready date, status, missing reason, record count, evaluation details, execution timestamp.
 - Supports recent result retrieval and historical trend queries.
-- Enables auditability through execution metadata and result versioning.
+- Enables MVP1 traceability through execution metadata; full result version history is deferred to V2.
 - Allows persistence in MVP storage (file or in-memory) and future Databricks-backed tables.
 
 ## Configuration Repository Design
@@ -70,7 +72,7 @@ The architecture is built around a configuration-driven monitoring engine with a
 - Calculates expected ready dates using business-date and calendar-date rules.
 - Evaluates KPI readiness according to configurable conditions, including record existence, record count, and required KPI value presence.
 - Supports KPI-specific readiness criteria sourced from metadata rather than hardcoded in logic.
-- Produces structured readiness results with status (`Ready`, `Late`, `Missing`) and diagnostic reasons.
+- Produces structured readiness results with status (`NOT_DUE`, `READY`, `LATE`, `MISSING`) and diagnostic reasons.
 - Enables future extension to more complex rule forms without changing the core engine.
 
 ## Business Calendar Model
@@ -148,9 +150,10 @@ The KPI configuration schema defines the canonical metadata consumed by the moni
 | `market` | string | Yes | Market identifier |
 | `kpi_name` | string | Yes | Unique KPI name within channel and market |
 | `frequency` | string | Yes | Supported values: `Daily`, `Monthly` |
-| `source_table_key` | string | Yes | Logical source identifier resolved through source mapping |
+| `source_table` | string | Yes | Logical source identifier resolved through source mapping |
 | `date_column` | string | Yes | Normalized date column used for actual ready date derivation and source filtering |
-| `value_column` | string | No | Optional KPI value column used by readiness conditions |
+| `value_column` | string | Yes | Normalized KPI value column used by readiness conditions |
+| `market_column` | string | Yes | Normalized market column used to scope source rows to the configured market |
 | `readiness_condition` | object | Yes | Structured readiness condition definition |
 | `active` | boolean | Yes | Whether the KPI participates in monitoring |
 | `effective_from` | date | No | Optional KPI activation start date |
@@ -158,8 +161,8 @@ The KPI configuration schema defines the canonical metadata consumed by the moni
 
 ### Constraints
 - The composite key is `channel + market + kpi_name + frequency + effective_from`.
-- `source_table_key` is a logical identifier and shall not embed Excel filenames or Databricks physical table names.
-- `date_column` and `value_column`, when present, shall reference normalized output column names.
+- `source_table` is a logical identifier and shall not embed Excel filenames or Databricks physical table names.
+- `date_column`, `value_column`, and `market_column` shall reference normalized output column names.
 - `readiness_condition` shall be valid against the KPI Readiness Condition Schema.
 
 ### Example Structure
@@ -169,7 +172,7 @@ The KPI configuration schema defines the canonical metadata consumed by the moni
   "market": "CN",
   "kpi_name": "Premium",
   "frequency": "Monthly",
-  "source_table_key": "premium_fact",
+  "source_table": "premium_fact",
   "date_column": "data_date",
   "value_column": "premium_amount",
   "readiness_condition": {
@@ -279,23 +282,24 @@ The monitoring result schema defines the persisted output of one KPI evaluation 
 | `market` | string | Yes | Market identifier |
 | `kpi_name` | string | Yes | KPI identifier |
 | `frequency` | string | Yes | `Daily` or `Monthly` |
-| `source_table_key` | string | Yes | Logical source identifier evaluated for the KPI |
+| `source_table` | string | Yes | Logical source identifier evaluated for the KPI |
 | `expected_ready_date` | date | Yes | Calculated expected ready date |
 | `actual_ready_date` | date | No | Derived latest available source date |
-| `status` | string | Yes | Supported values: `Ready`, `Late`, `Missing` |
-| `missing_reason` | string | No | Required when status is `Missing` |
+| `status` | string | Yes | Supported values: `NOT_DUE`, `READY`, `LATE`, `MISSING` |
+| `missing_reason` | string | No | Required when status is `MISSING` |
 | `record_count` | integer | Yes | Count of normalized rows evaluated |
 | `evaluation_details` | object | Yes | Structured diagnostic metadata |
 
 ### Status Semantics
-- `Ready` means data satisfies readiness conditions and `actual_ready_date` is on or before `expected_ready_date`.
-- `Late` means data satisfies readiness conditions but `actual_ready_date` is after `expected_ready_date`.
-- `Missing` means readiness conditions are not satisfied or required dates cannot be derived.
+- `NOT_DUE` means the expected ready date has not been reached.
+- `READY` means data satisfies readiness conditions and `actual_ready_date` is on or before `expected_ready_date`.
+- `LATE` means data satisfies readiness conditions but `actual_ready_date` is after `expected_ready_date`.
+- `MISSING` means the expected ready date has been reached or passed and readiness conditions are not satisfied, or required dates cannot be derived.
 
 ### Versioning Rules
-- The natural business key is `monitoring_date + channel + market + kpi_name + frequency + execution_id + result_version`.
-- Reruns for the same monitoring date shall create a new `execution_id` or increment `result_version`.
-- Result retrieval APIs shall support returning either all versions or latest version only.
+- The MVP1 overwrite key is `monitoring_date + channel + market + kpi_name + frequency`.
+- In MVP1, `result_version` is `1`; a rerun for the same overwrite key shall replace the previously persisted result. Full idempotency and preservation of all rerun versions are deferred to V2.
+- Result retrieval APIs shall support the MVP1 latest-result behavior; all-version retrieval is a V2 concern.
 
 ### Example Structure
 ```json
@@ -308,10 +312,10 @@ The monitoring result schema defines the persisted output of one KPI evaluation 
   "market": "CN",
   "kpi_name": "Premium",
   "frequency": "Monthly",
-  "source_table_key": "premium_fact",
+  "source_table": "premium_fact",
   "expected_ready_date": "2026-08-05",
   "actual_ready_date": "2026-08-04",
-  "status": "Ready",
+  "status": "READY",
   "missing_reason": null,
   "record_count": 124,
   "evaluation_details": {
@@ -327,12 +331,12 @@ The monitoring result schema defines the persisted output of one KPI evaluation 
 The data provider contract abstracts physical source access while requiring normalized output semantics.
 
 ### Interface Methods
-- `get_table_data(source_table_key, date_from, date_to, filters=None) -> DataFrame`
+- `get_table_data(source_table, date_from, date_to, filters=None) -> DataFrame`
 - `get_config_table(config_name, filters=None) -> DataFrame`
 - `get_calendar_data(calendar_code, date_from, date_to) -> DataFrame`
 
 ### Method Semantics
-- `source_table_key` is a logical source identifier resolved outside the provider into a physical source target.
+- `source_table` is a logical source identifier resolved outside the provider into a physical source target.
 - `date_from` and `date_to` are inclusive bounds.
 - `filters` is an optional structured dictionary of equality predicates on normalized column names.
 - Returned data shall already be normalized to the shared Normalized Data Contract.
@@ -358,7 +362,7 @@ The data provider contract abstracts physical source access while requiring norm
 class DataProvider(ABC):
     def get_table_data(
         self,
-        source_table_key: str,
+        source_table: str,
         date_from: date,
         date_to: date,
         filters: dict[str, object] | None = None,
@@ -388,6 +392,8 @@ The configuration repository contract defines how monitoring metadata is loaded 
 - Load business calendar entries by calendar code and date range.
 - Validate configuration completeness and uniqueness.
 
+The repository is the sole owner of these responsibilities at the application boundary. The monitoring engine consumes repository results and does not read provider files, provider tables, or raw configuration rows directly.
+
 ### Required Methods
 - `load_kpi_configs() -> list[KPIConfiguration]`
 - `load_ready_rule_configs() -> list[ReadyRuleConfiguration]`
@@ -395,7 +401,7 @@ The configuration repository contract defines how monitoring metadata is loaded 
 - `load_source_table_mappings() -> list[SourceTableMapping]`
 - `get_active_kpis(channel, market, frequency, monitoring_date) -> list[KPIConfiguration]`
 - `get_ready_rule(channel, market, kpi_name, frequency, monitoring_date) -> ReadyRuleConfiguration`
-- `get_source_mapping(source_table_key, market) -> SourceTableMapping`
+- `get_source_mapping(source_table, market) -> SourceTableMapping`
 - `validate() -> list[ConfigurationValidationIssue]`
 
 ### Validation Rules
@@ -437,7 +443,7 @@ class ConfigurationRepository(ABC):
         monitoring_date: date,
     ) -> ReadyRuleConfiguration: ...
 
-    def get_source_mapping(self, source_table_key: str, market: str) -> SourceTableMapping: ...
+    def get_source_mapping(self, source_table: str, market: str) -> SourceTableMapping: ...
 
     def validate(self) -> list[ConfigurationValidationIssue]: ...
 ```
@@ -449,7 +455,7 @@ The result repository contract defines persistence and retrieval behavior for mo
 - Persist monitoring results for each execution.
 - Support latest-result retrieval for dashboard views.
 - Support historical queries for trend analysis and auditability.
-- Preserve execution metadata and version history.
+- Preserve execution metadata; MVP1 retains only the overwritten latest result set.
 
 ### Required Methods
 - `save_results(results) -> None`
@@ -458,8 +464,8 @@ The result repository contract defines persistence and retrieval behavior for mo
 - `get_results_by_execution(execution_id) -> list[MonitoringResult]`
 
 ### Query Semantics
-- Latest-result queries shall return only the newest version per `monitoring_date + channel + market + kpi_name + frequency`.
-- Historical queries shall return all matching versions unless a latest-only filter is explicitly applied.
+- Latest-result queries shall return the stored MVP1 result set for the requested slice.
+- Full multi-version historical retrieval is deferred to V2.
 - Results shall be ordered by `monitoring_date` descending, then `execution_timestamp` descending unless another order is requested.
 
 ### Example Contract Shape
@@ -496,7 +502,7 @@ The normalized data contract defines the shape that the provider layer must retu
 - Returned data shall use normalized column names agreed by configuration.
 - The configured `date_column` shall exist in the returned DataFrame.
 - Date columns shall be convertible to dates without provider-specific parsing logic in the engine.
-- Optional KPI value columns shall use consistent null semantics across providers.
+- Required KPI value columns shall use consistent null semantics across providers.
 - Additional source-specific columns may be present but shall not be required by the monitoring engine unless named in configuration.
 
 ### Configuration Data Requirements
@@ -508,15 +514,24 @@ Source table mappings shall define:
 
 | Field | Type | Required | Description |
 |----------|----------|----------|----------|
-| `source_table_key` | string | Yes | Logical source identifier used by KPI config |
+| `source_table` | string | Yes | Logical source identifier used by KPI config |
 | `market` | string | Yes | Market identifier |
 | `provider_type` | string | Yes | `excel` or `databricks` |
 | `physical_object_name` | string | Yes | Excel workbook base name or Databricks table/view name |
 
+KPI source configurations shall also define these normalized source fields:
+
+| Field | Type | Required | Description |
+|----------|----------|----------|----------|
+| `source_table` | string | Yes | Logical source table identifier |
+| `date_column` | string | Yes | Source column used for date filtering and actual ready date derivation |
+| `value_column` | string | Yes | Source column used for KPI value readiness checks |
+| `market_column` | string | Yes | Source column used to filter the configured market |
+
 ### Example Structure
 ```json
 {
-  "source_table_key": "premium_fact",
+  "source_table": "premium_fact",
   "market": "CN",
   "provider_type": "excel",
   "physical_object_name": "Table_A"
@@ -537,7 +552,7 @@ The following flow is the canonical execution sequence for one monitoring run.
 9. The KPI readiness evaluator applies the structured readiness condition schema against the normalized source data.
 10. The engine derives `actual_ready_date`, `record_count`, `status`, and `evaluation_details`.
 11. The engine assembles one monitoring result record per KPI using the Monitoring Result Schema.
-12. The result repository persists the full result set with execution metadata and versioning.
+12. The result repository persists the full result set with execution metadata, overwriting the prior MVP1 result set for the same monitoring slice and date.
 13. The dashboard layer reads latest or historical results only through the result repository contract.
 
 ### Sequence Guarantees
