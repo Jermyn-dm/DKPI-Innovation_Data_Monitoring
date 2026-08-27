@@ -1,1 +1,1 @@
-"""Persistence adapters for monitoring results.""
+"""Persistence adapters for monitoring results."""
