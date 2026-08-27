@@ -37,13 +37,13 @@
 | T013 | Implement Excel data provider table read | 0.5 day | P0 | Yes | T001 (FS), T005 (FS) | Provider reads source data by logical key and date range; returns normalized dataframe with expected columns and dtypes. |
 | T014 | Implement provider error mapping and retry handling | 0.5 day | P1 | Yes | T013 (FS) | Provider raises standardized error categories for config, schema, and transient failures; retry behavior defined for transient errors. |
 | T015 | Implement provider factory selection | 0.25 day | P0 | Yes | T013 (FS) | Factory creates provider from configuration; unsupported provider type fails fast with clear message. |
-| T016 | Implement result repository write path (MVP memory/file) | 0.5 day | P0 | Yes | T002 (FS) | Monitoring results persist with execution metadata and result version; save operation is idempotent per key+version policy. |
-| T017 | Implement latest result retrieval query | 0.5 day | P1 | Yes | T016 (FS) | Latest query returns newest version per KPI slice and monitoring date; filters (channel, market, frequency, status) function correctly. |
-| T018 | Implement result history retrieval query | 0.5 day | P1 | Yes | T016 (FS) | History query returns ordered results across date range including multiple versions where present. |
+| T016 | Implement result repository write path (MVP memory/file) | 0.5 day | P0 | Yes | T002 (FS) | Monitoring results persist with execution metadata; an MVP1 rerun overwrites the prior result set for the same monitoring slice and date. |
+| T017 | Implement latest result retrieval query | 0.5 day | P1 | Yes | T016 (FS) | Latest query returns the stored MVP1 result per KPI slice and monitoring date; filters (channel, market, frequency, status) function correctly. |
+| T018 | Implement result history retrieval query | 0.5 day | P1 | Yes | T016 (FS) | History query returns ordered MVP1 results across a date range; rerun versions are not retained in MVP1. |
 | T019 | Build monitoring orchestration skeleton | 0.5 day | P0 | Yes | T006 (FS), T015 (FS), T016 (FS) | Orchestrator accepts run parameters (`channel`, `market`, `frequency`, `monitoring_date`) and executes configuration-to-result pipeline steps without KPI-specific branching. |
-| T020 | Implement per-KPI execution loop | 0.75 day | P0 | Yes | T019 (FS), T010 (FS), T012 (FS), T013 (FS) | For each active KPI, system computes expected date, evaluates readiness, derives actual date and status, and creates output record matching monitoring result schema. |
-| T021 | Add execution metadata and versioning strategy | 0.5 day | P1 | Yes | T020 (FS), T016 (FS) | Execution ID generation, execution timestamp, and version increment behavior are deterministic and documented; rerun scenario covered by tests. |
-| T022 | Implement monitoring status derivation rules | 0.5 day | P0 | Yes | T020 (FS) | `Ready`, `Late`, `Missing` semantics implemented exactly as architecture definitions and verified via unit tests. |
+| T020 | Implement per-KPI execution loop | 0.75 day | P0 | Yes | T019 (FS), T010 (FS), T012 (FS), T013 (FS), T022 (FS) | For each active KPI, system computes expected date, evaluates readiness, derives actual date and status, and creates output record matching monitoring result schema. |
+| T021 | Add execution metadata and versioning strategy | 0.5 day | P1 | Yes | T020 (FS), T016 (FS) | Execution ID and execution timestamp are generated and documented; MVP1 reruns overwrite the prior result set for the same monitoring slice and date. |
+| T022 | Implement monitoring status derivation rules | 0.5 day | P0 | Yes | T010 (FS), T012 (FS) | `NOT_DUE`, `READY`, `LATE`, and `MISSING` semantics are implemented exactly as architecture definitions and verified via unit tests. |
 | T023 | Seed MVP1 sample configuration data | 0.5 day | P0 | Yes | T006 (FS), T007 (FS) | Agency-CN-Monthly representative KPI config, ready rules, calendar, and source mappings are available and pass validation. |
 | T024 | Prepare MVP1 sample Excel source data | 0.5 day | P0 | Yes | T013 (SS), T023 (SS) | Sample source tables include ready, late, and missing cases; data conforms to normalized contract expectations. |
 | T025 | Build Streamlit dashboard skeleton and navigation | 0.5 day | P1 | Yes | T017 (FS), T018 (FS) | Dashboard loads successfully and includes overview plus drill-down navigation structure. |
@@ -51,8 +51,8 @@
 | T027 | Implement dashboard trend/history view | 0.5 day | P1 | Yes | T025 (FS), T018 (FS) | Trend view renders historical KPI statuses over time and supports KPI selection for Agency CN monthly scope. |
 | T028 | Add unit tests for calendar and rule engine | 0.75 day | P0 | Yes | T010 (FS), T012 (FS) | Test suite covers rule parsing, expected date calculations, and readiness condition evaluation with pass/fail variants. |
 | T029 | Add unit tests for provider normalization | 0.5 day | P1 | Yes | T013 (FS), T014 (FS) | Tests verify normalized columns, data types, null handling, and error mapping behavior for Excel provider. |
-| T030 | Add integration test for end-to-end monthly run | 0.75 day | P0 | Yes | T020 (FS), T023 (FS), T024 (FS), T016 (FS) | One run from config load to result persistence succeeds and produces expected statuses for ready, late, missing sample KPIs. |
-| T031 | Add regression test for rerun version behavior | 0.5 day | P1 | Yes | T021 (FS), T030 (FS) | Re-execution on same monitoring date produces correct version semantics and preserves prior versions. |
+| T030 | Add integration test for end-to-end monthly run | 0.75 day | P0 | Yes | T020 (FS), T023 (FS), T024 (FS), T016 (FS), T028 (FS), T037 (FS) | One run from config load to result persistence succeeds and produces expected statuses for not-due, ready, late, and missing sample KPIs. |
+| T031 | Add regression test for rerun overwrite behavior | 0.5 day | P1 | Yes | T021 (FS), T030 (FS) | Re-execution on the same monitoring date overwrites the prior MVP1 result set for that monitoring slice; full version preservation is deferred to V2. |
 | T032 | Add architecture conformance checklist | 0.25 day | P1 | Yes | T030 (FS) | Checklist verifies contracts from architecture doc are represented in code interfaces and model schemas; no unresolved ambiguity items remain. |
 | T033 | Add operational logging for orchestration steps | 0.5 day | P1 | Yes | T020 (FS) | Logs include execution ID, KPI key, provider operation, rule evaluation outcome, and persistence status. |
 | T034 | Create Databricks provider interface stub | 0.5 day | P2 | No | T015 (FS) | Databricks provider class compiles against provider contract with method stubs and TODO markers; no business logic changes needed. |
@@ -66,10 +66,10 @@
 
 The minimum sequence to deliver MVP1 usable functionality is:
 
-T036 -> T001 -> T002 -> T003 -> T004 -> T005 -> T006 -> T007 -> T008 -> T009 -> T010 -> T011 -> T012 -> T013 -> T014 -> T015 -> T016 -> T019 -> T020 -> T022 -> T023 -> T024 -> T037 -> T030 -> T025 -> T026 -> T038 -> T039
+T036 -> T001 -> T002 -> T003 -> T004 -> T005 -> T006 -> T007 -> T008 -> T009 -> T010 -> T011 -> T012 -> T013 -> T014 -> T015 -> T016 -> T019 -> T022 -> T020 -> T023 -> T024 -> T028 -> T037 -> T030 -> T017 -> T018 -> T025 -> T026 -> T027 -> T033 -> T038 -> T039
 
 Notes:
-- Daily monitoring support remains in architecture scope; MVP1 implementation validates monthly CN flow first as defined in PRD implementation scope.
+- Daily monitoring support remains outside MVP1; MVP1 implements only the Agency-CN-Monthly flow defined in the PRD.
 - Tasks marked `MVP1 = Yes` but not on critical path are quality/completeness tasks that can run in parallel.
 
 ## 4. Suggested Execution Waves
@@ -101,7 +101,7 @@ The following items are explicitly deferred and not required for MVP1 delivery:
 
 - CI/CD quality gates
 - Performance benchmarking
-- Idempotency
+- Full idempotency and preservation of all rerun versions; MVP1 uses overwrite-on-rerun.
 - Configuration approval workflow
 
 ## 6. Accepted Review Items Incorporated
@@ -120,7 +120,7 @@ The accepted review items are incorporated as follows:
 MVP1 is complete when all conditions are met:
 
 - All `P0` tasks with `MVP1 = Yes` are completed and accepted.
-- End-to-end Agency CN Monthly run produces expected `Ready`, `Late`, and `Missing` outcomes using Excel source.
+- End-to-end Agency CN Monthly run produces expected `NOT_DUE`, `READY`, `LATE`, and `MISSING` outcomes using Excel source.
 - Pre-run schema contract validation is active and blocks invalid configuration or source schema before execution.
 - Dashboard displays latest status and history from persisted monitoring results.
 - UAT is completed with documented acceptance decision.

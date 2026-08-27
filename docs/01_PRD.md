@@ -38,15 +38,22 @@ Build a monitoring platform that:
 
 ## Phase 1 (MVP1)
 
-Only support:
+MVP1 supports only:
 
 ### Channel
 
 - Agency
 
+### Market
+
+- CN
+
+### Frequency
+
+- Monthly
+
 ### Features
 
-- Daily KPI Data Monitoring
 - Monthly KPI Data Monitoring
 - KPI Readiness Calculation
 - Missing Data Detection
@@ -88,7 +95,7 @@ Data Source:
 
 - Excel Files
 
-The purpose of MVP1 is to validate the complete monitoring workflow before scaling to additional markets, KPIs and channels.
+The purpose of MVP1 is to validate the complete monthly monitoring workflow for Agency and CN before scaling to additional markets, KPIs and channels. Daily monitoring is outside MVP1.
 
 ## Future Phases
 
@@ -181,8 +188,7 @@ Actual Ready Date:
 
 Result:
 
-- Ready
-- On Time
+- READY
 
 ---
 
@@ -198,8 +204,7 @@ Actual Ready Date:
 
 Result:
 
-- Ready
-- Late
+- LATE
 
 ---
 
@@ -215,7 +220,16 @@ Not Available
 
 Result:
 
-- Missing
+- MISSING
+
+## 5.2 Status Taxonomy
+
+The monitoring result status shall use exactly these values:
+
+- `NOT_DUE`: the expected ready date has not been reached; readiness is not judged as late or missing.
+- `READY`: the readiness conditions are satisfied and the actual ready date is on or before the expected ready date.
+- `LATE`: the readiness conditions are satisfied and the actual ready date is after the expected ready date.
+- `MISSING`: the expected ready date has been reached or passed and the readiness conditions are not satisfied, or a required date cannot be derived.
 
 ## 5.1 KPI Ready Determination
 
@@ -313,10 +327,10 @@ Example:
 
 ## FR-004 Daily Monitoring
 
-Applicable to:
+Future scope after MVP1:
 
 - Agency
-- Banca (Future)
+- Banca
 
 The platform shall:
 
@@ -327,9 +341,7 @@ The platform shall:
 
 Output:
 
-- Ready
-- Late
-- Missing
+- `NOT_DUE`, `READY`, `LATE`, `MISSING`
 
 ---
 
@@ -349,9 +361,7 @@ The platform shall:
 
 Output:
 
-- Ready
-- Late
-- Missing
+- `NOT_DUE`, `READY`, `LATE`, `MISSING`
 
 ---
 
@@ -398,7 +408,7 @@ The platform shall provide dashboard views including:
 
 ### Overview
 
-Display:
+MVP1 display:
 
 - Total KPI Count
 - Ready KPI Count
@@ -446,7 +456,6 @@ Display:
 Display:
 
 - Historical Readiness Trend
-- Daily Trend
 - Monthly Trend
 
 ---
@@ -646,6 +655,8 @@ Fields:
 - Frequency
 - Source Table
 - Date Column
+- Value Column
+- Market Column
 - Active Flag
 
 ---
