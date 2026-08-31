@@ -8,7 +8,6 @@ from dkpi_monitoring.models import (
     BusinessCalendarConfig,
     KPIConfig,
     KPIReadinessResult,
-    ReadyRuleConfig,
     SourceTableMapping,
 )
 
@@ -21,9 +20,6 @@ class ConfigurationRepository(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    def load_ready_rule_configs(self) -> list[ReadyRuleConfig]:
-        raise NotImplementedError
-
     @abstractmethod
     def load_business_calendar(
         self,
@@ -48,14 +44,14 @@ class ConfigurationRepository(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    def get_ready_rule(
+    def get_target_availability(
         self,
         channel: str,
         market: str,
-        kpi_name: str,
+        kpi_id: str,
         frequency: str,
         monitoring_date: date,
-    ) -> ReadyRuleConfig:
+    ) -> str:
         raise NotImplementedError
 
     @abstractmethod
