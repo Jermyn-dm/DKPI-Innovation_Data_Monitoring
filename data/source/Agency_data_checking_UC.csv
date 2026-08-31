@@ -1,0 +1,453 @@
+UID,BU_CODE,BU,CHANNEL_CODE,DISTRIBUTION_CHANNEL,PERIOD,MODE,ACCOUNT_ID,ACCOUNT,VALUE,CREATE_DATE,UPDATE_DATE
+Agency-070f83b4-2689-48dd-b5f3-865a32373bf5,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0016_2,# of 1-Month Active Agents in 2-3M,264.000000,2026-07-02T05:13:07.365Z,null
+Agency-3734e8ef-56f5-4f2d-921b-024772621759,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0016_3,# of 1-Month Active Agents in 4-12M,502.000000,2026-07-02T05:13:07.365Z,null
+Agency-a92306f4-a960-492d-8e8a-27af0021562f,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0016_4,# of 1-Month Active Agents 13+M,3493.000000,2026-07-02T05:13:07.365Z,null
+Agency-8a98b00c-77a8-4a84-807b-ceeb6c514b5e,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0043,New Recruits 3M Activation #,767.000000,2026-07-02T05:13:07.365Z,null
+Agency-146b5095-e9ba-494c-8766-8a437e780637,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0051,Total # of Leaders (end of period),1261.000000,2026-07-02T05:13:07.365Z,null
+Agency-a67ce267-daa7-449c-9709-f8a9accd104d,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0070,# of MDRT qualifiers - YTD,526.000000,2026-07-02T05:13:07.365Z,null
+Agency-a769da4a-aabb-416f-88f8-8b86e2e4cf89,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0016_1,# of 1-Month Active Agents in 0-1M,292.000000,2026-07-02T05:13:07.365Z,null
+Agency-3364cf18-55d6-415d-bd0d-ae6cec9335f3,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0029,Total agent headcount (end of period),7495.000000,2026-07-02T05:13:07.365Z,null
+Agency-d6bccf22-bde1-4a91-a91e-f7e99a5a5729,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0029_12_2,Total agent headcount (end of period) in pro-rated MDRT agents (70-99% of pro-rated achievement),322.000000,2026-07-02T05:13:07.365Z,null
+Agency-79570b2a-9f4b-45f4-8bca-bcb80fd8cca4,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0029_12_3,Total agent headcount (end of period) in pro-rated MDRT agents (50-69% of pro-rated achievement),357.000000,2026-07-02T05:13:07.365Z,null
+Agency-79047b28-68d3-4748-8b93-c1afcfd00a33,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0062,# of pro-rated MDRT agents (100%),1097.000000,2026-07-02T05:13:07.365Z,null
+Agency-e977f216-7113-4eaa-9def-1fbfbdf91752,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0062_6,# of pro-rated MDRT agents (70-99%),322.000000,2026-07-02T05:13:07.365Z,null
+Agency-a634f197-bdd4-4d4b-befa-7b79830a3851,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0016,# of 1-Month Active Agents,4551.000000,2026-07-02T05:13:07.365Z,null
+Agency-1a022e45-f20f-487b-a752-80a45321d807,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0020,Net Case Count - Agency,10512.000000,2026-07-02T05:13:07.365Z,null
+Agency-7c5e9c55-91b9-4f32-a154-dc0984ae9461,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0020_4,Net Case Count - Agency 13+M,8362.000000,2026-07-02T05:13:07.365Z,null
+Agency-bc996a06-41a9-4e7f-a45a-1e9c34f3f64e,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0029_12,Total agent headcount (end of period) in Top-tier Agents,1776.000000,2026-07-02T05:13:07.365Z,null
+Agency-aea2f952-d403-444a-a1b5-13c57921a468,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0055,# of Active Recruiting Leaders,180.000000,2026-07-02T05:13:07.365Z,null
+Agency-22993e85-5b69-40d2-a63d-b00fb0648090,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0062_7,# of pro-rated MDRT agents (50-69%),357.000000,2026-07-02T05:13:07.365Z,null
+Agency-f0ac1aaa-3287-4826-8102-d6aad3f71a8d,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0029_12_1,Total agent headcount (end of period) in pro-rated MDRT agents (>100% of pro-rated achievement),1097.000000,2026-07-02T05:13:07.365Z,null
+Agency-63f1f3d4-4c56-42cc-a8de-cabd61fe2bec,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0038,New recruits,378.000000,2026-07-02T05:13:07.365Z,null
+Agency-5016bb4c-e64a-4a74-8bf6-7fb92abdc4eb,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0041,# of 6-90 agents,130.000000,2026-07-02T05:13:07.365Z,null
+Agency-0833ac22-fb16-4149-98c7-5cc58899b588,CN,China,CN-Agency,Agency,2026-06-30,M1,AG0062_8,# of Top-tier agents,1776.000000,2026-07-02T05:13:07.365Z,null
+Agency-b4a3c914-bead-4ab0-b1ee-8d5588ef01aa,CN,China,CN-Agency,Agency,2026-07-10,D1,AG0016,# of 1-Month Active Agents,1736.000000,2026-07-11T05:12:24.135Z,null
+Agency-abb34634-254a-4281-9a3a-c46a40edda51,CN,China,CN-Agency,Agency,2026-07-10,D1,AG0055,# of Active Recruiting Leaders,19.000000,2026-07-11T05:12:24.135Z,null
+Agency-bd48b156-7d6e-4953-8913-f0742f16973d,CN,China,CN-Agency,Agency,2026-07-10,D1,AG0020,Net Case Count - Agency,2552.000000,2026-07-11T05:12:24.135Z,null
+Agency-4d53c8b2-aa0b-4de7-9430-1577d7791f77,CN,China,CN-Agency,Agency,2026-07-10,D1,AG0038,New recruits,45.000000,2026-07-11T05:12:24.135Z,null
+Agency-9d99aa5c-559e-419b-bc45-e7db15447b2c,CN,China,CN-Agency,Agency,2026-07-10,D1,AG0041,# of 6-90 agents,74.000000,2026-07-11T05:12:24.135Z,null
+Agency-6b389718-fe06-41e2-bc07-909435acc5bf,CN,China,CN-Agency,Agency,2026-07-10,D1,AG0043,New Recruits 3M Activation #,579.000000,2026-07-11T05:12:24.135Z,null
+Agency-88c09791-b839-4f5f-b010-567457bb81d3,CN,China,CN-Agency,Agency,2026-07-14,D1,AG0020,Net Case Count - Agency,3059.000000,2026-07-15T05:14:57.889Z,null
+Agency-9def58c1-67f7-4e92-afd8-e3a344f653dc,CN,China,CN-Agency,Agency,2026-07-14,D1,AG0038,New recruits,62.000000,2026-07-15T05:14:57.889Z,null
+Agency-2e01280e-ea6a-4a90-82f5-3ab265033c88,CN,China,CN-Agency,Agency,2026-07-14,D1,AG0043,New Recruits 3M Activation #,587.000000,2026-07-15T05:14:57.889Z,null
+Agency-a65d715e-b8e0-477e-8007-2008b94d4f31,CN,China,CN-Agency,Agency,2026-07-14,D1,AG0055,# of Active Recruiting Leaders,27.000000,2026-07-15T05:14:57.889Z,null
+Agency-ea7f17c8-3336-483e-bc3c-de09ca5fbfa9,CN,China,CN-Agency,Agency,2026-07-14,D1,AG0016,# of 1-Month Active Agents,1989.000000,2026-07-15T05:14:57.889Z,null
+Agency-9a7ea98a-a87e-41e3-9dd2-8c5b7b84e5bf,CN,China,CN-Agency,Agency,2026-07-14,D1,AG0041,# of 6-90 agents,75.000000,2026-07-15T05:14:57.889Z,null
+Agency-da5f7d36-a827-4612-946c-fdeef256915b,CN,China,CN-Agency,Agency,2026-07-05,D1,AG0020,Net Case Count - Agency,1244.000000,2026-07-06T05:14:29.737Z,null
+Agency-e8ff0a05-de8f-4a44-bd28-db69c5146fce,CN,China,CN-Agency,Agency,2026-07-05,D1,AG0041,# of 6-90 agents,68.000000,2026-07-06T05:14:29.737Z,null
+Agency-06113752-d83a-4d84-978d-67ba496c5a56,CN,China,CN-Agency,Agency,2026-07-05,D1,AG0043,New Recruits 3M Activation #,557.000000,2026-07-06T05:14:29.737Z,null
+Agency-e65d94bb-1fc7-4fc6-b9d6-0c51a2982a00,CN,China,CN-Agency,Agency,2026-07-05,D1,AG0016,# of 1-Month Active Agents,972.000000,2026-07-06T05:14:29.737Z,null
+Agency-4db3c219-a018-4bfc-9d3a-ac09dbcf88f0,CN,China,CN-Agency,Agency,2026-07-05,D1,AG0038,New recruits,15.000000,2026-07-06T05:14:29.737Z,null
+Agency-0081a9fc-ef3d-4ab6-8f91-320afff6596e,CN,China,CN-Agency,Agency,2026-07-05,D1,AG0055,# of Active Recruiting Leaders,5.000000,2026-07-06T05:14:29.737Z,null
+Agency-4c85ac4a-3faf-482e-a8e7-42087780c187,CN,China,CN-Agency,Agency,2026-06-27,D1,AG0016,# of 1-Month Active Agents,3453.000000,2026-06-28T05:12:22.841Z,null
+Agency-dd00a88f-cf40-42c7-bc02-12812b65ffdb,CN,China,CN-Agency,Agency,2026-06-27,D1,AG0041,# of 6-90 agents,87.000000,2026-06-28T05:12:22.841Z,null
+Agency-9a235e52-76c6-4050-87f0-48ddb6066c1d,CN,China,CN-Agency,Agency,2026-06-27,D1,AG0055,# of Active Recruiting Leaders,148.000000,2026-06-28T05:12:22.841Z,null
+Agency-e262ff93-89f8-406a-b338-8ab91ea95789,CN,China,CN-Agency,Agency,2026-06-27,D1,AG0038,New recruits,302.000000,2026-06-28T05:12:22.841Z,null
+Agency-292c5ab6-ce39-419f-b663-7b78494f6153,CN,China,CN-Agency,Agency,2026-06-27,D1,AG0043,New Recruits 3M Activation #,625.000000,2026-06-28T05:12:22.841Z,null
+Agency-ca6d8bed-9648-469b-aede-d24697a7608a,CN,China,CN-Agency,Agency,2026-06-27,D1,AG0020,Net Case Count - Agency,7100.000000,2026-06-28T05:12:22.841Z,null
+Agency-582b8eda-f2f9-4822-8224-e2ab180b920e,CN,China,CN-Agency,Agency,2026-06-30,D1,AG0020,Net Case Count - Agency,10512.000000,2026-07-01T05:16:24.586Z,null
+Agency-f87ce640-dc10-48d5-a84c-1a3abd405568,CN,China,CN-Agency,Agency,2026-06-30,D1,AG0038,New recruits,378.000000,2026-07-01T05:16:24.586Z,null
+Agency-b96f0d4b-98e7-4c54-afb9-8d60bdbd0a0d,CN,China,CN-Agency,Agency,2026-06-30,D1,AG0016,# of 1-Month Active Agents,4551.000000,2026-07-01T05:16:24.586Z,null
+Agency-ed768996-ee3f-4a64-ac62-16261510f31a,CN,China,CN-Agency,Agency,2026-06-30,D1,AG0041,# of 6-90 agents,130.000000,2026-07-01T05:16:24.586Z,null
+Agency-fd446f01-d9d6-4f57-b064-c062ad12ea6b,CN,China,CN-Agency,Agency,2026-06-30,D1,AG0043,New Recruits 3M Activation #,767.000000,2026-07-01T05:16:24.586Z,null
+Agency-5a4168db-80df-49ad-8529-8c367f2741e4,CN,China,CN-Agency,Agency,2026-06-30,D1,AG0055,# of Active Recruiting Leaders,180.000000,2026-07-01T05:16:24.586Z,null
+Agency-c8f4c032-fed9-4196-85ea-1832dfa84bb4,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0020_4,Net Case Count - Agency 13+M,6408.500000,null,null
+Agency-a03c2035-2858-4ee3-93fd-707d69a7fc5d,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0029,Total agent headcount (end of period),7038.000000,null,null
+Agency-78d2192c-bf75-464e-904b-9bbc1d3f0cb7,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0043,New Recruits 3M Activation #,522.000000,null,null
+Agency-f03b68f7-f0b1-456c-a939-c63182396332,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0055,# of Active Recruiting Leaders,146.000000,null,null
+Agency-d47dbd70-7af1-4ee9-b5c5-b5a2a4c3baaf,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0062_8,# of Top-tier agents,1949.000000,null,null
+Agency-d987e2e6-7942-48af-ba2a-8fa106728ff3,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0070,# of MDRT qualifiers - YTD,418.000000,null,null
+Agency-8cf00020-9e4f-46f1-a0cd-06ef81034b7b,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0016,# of 1-Month Active Agents,3654.000000,null,null
+Agency-525f252e-d351-451a-ad8c-293d26c096f5,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0016_1,# of 1-Month Active Agents in 0-1M,186.000000,null,null
+Agency-44b9065c-e3a7-42ff-9228-1cd4f461598a,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0016_2,# of 1-Month Active Agents in 2-3M,142.000000,null,null
+Agency-69cac8ab-7763-404c-a865-b51d3381426d,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0016_3,# of 1-Month Active Agents in 4-12M,369.000000,null,null
+Agency-6e98d3ee-c417-48e3-8b1d-f7eac2d0e835,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0016_4,# of 1-Month Active Agents 13+M,2957.000000,null,null
+Agency-054db3c6-c369-4e27-8b68-8d984ed0d116,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0062,# of pro-rated MDRT agents (100%),1239.000000,null,null
+Agency-db2f351e-c6fc-4c38-aa03-bc6e52052f04,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0062_7,# of pro-rated MDRT agents (50-69%),336.000000,null,null
+Agency-5eff6b0b-f18d-4f13-8ef7-bed0627eccd5,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0020,Net Case Count - Agency,7825.500000,null,null
+Agency-386af750-7d38-486b-9549-705d1131b995,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0029_12,Total agent headcount (end of period) in Top-tier Agents,1949.000000,null,null
+Agency-86bdfefe-dba6-4af8-8155-2bab57a11d3e,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0029_12_1,Total agent headcount (end of period) in pro-rated MDRT agents (>100% of pro-rated achievement),1239.000000,null,null
+Agency-869de730-b060-4356-9487-b20be22d84fa,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0029_12_2,Total agent headcount (end of period) in pro-rated MDRT agents (70-99% of pro-rated achievement),374.000000,null,null
+Agency-76406d6a-ddbe-430e-977b-b2eec43a9f7a,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0038,New recruits,307.000000,null,null
+Agency-7cedc9b6-60f9-48ee-b53b-10040398ebe7,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0051,Total # of Leaders (end of period),1236.000000,null,null
+Agency-0040af00-9ea1-4a12-bb32-61b36fa945ea,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0062_6,# of pro-rated MDRT agents (70-99%),374.000000,null,null
+Agency-fbc3353b-437e-43b9-85ab-d6f3a9fe7c12,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0029_12_3,Total agent headcount (end of period) in pro-rated MDRT agents (50-69% of pro-rated achievement),336.000000,null,null
+Agency-bde93fa4-393b-41a4-8604-25b4a8a07a86,CN,China,CN-Agency,Agency,2026-04-30,M1,AG0041,# of 6-90 agents,86.000000,null,null
+Agency-5b026ea9-6775-4ba3-9eb5-5761bb5c3150,CN,China,CN-Agency,Agency,2026-07-17,D1,AG0020,Net Case Count - Agency,3484.000000,2026-07-18T05:13:33.262Z,null
+Agency-1cff0f5c-02d3-4f94-b1da-ad40301e0f68,CN,China,CN-Agency,Agency,2026-07-17,D1,AG0016,# of 1-Month Active Agents,2189.000000,2026-07-18T05:13:33.262Z,null
+Agency-403bf564-6183-4419-a868-fb1f9db6781d,CN,China,CN-Agency,Agency,2026-07-17,D1,AG0038,New recruits,116.000000,2026-07-18T05:13:33.262Z,null
+Agency-9f1b1d06-9afe-427a-a479-1b45d017171b,CN,China,CN-Agency,Agency,2026-07-17,D1,AG0041,# of 6-90 agents,75.000000,2026-07-18T05:13:33.262Z,null
+Agency-9a3455f5-a0c0-4d88-928f-49d98e81923a,CN,China,CN-Agency,Agency,2026-07-17,D1,AG0055,# of Active Recruiting Leaders,44.000000,2026-07-18T05:13:33.262Z,null
+Agency-49bde867-9ec0-4345-bb02-dbe9d5957591,CN,China,CN-Agency,Agency,2026-07-17,D1,AG0043,New Recruits 3M Activation #,596.000000,2026-07-18T05:13:33.262Z,null
+Agency-e62f1705-7e1c-488e-a51b-5c2ba407f54e,CN,China,CN-Agency,Agency,2026-07-22,D1,AG0016,# of 1-Month Active Agents,2537.000000,2026-07-23T05:13:08.604Z,null
+Agency-81a2587a-e1b3-47cf-8a8d-fe5133abeff4,CN,China,CN-Agency,Agency,2026-07-22,D1,AG0020,Net Case Count - Agency,4241.000000,2026-07-23T05:13:08.604Z,null
+Agency-654000f4-f830-4c83-b676-03e9a434b8db,CN,China,CN-Agency,Agency,2026-07-22,D1,AG0041,# of 6-90 agents,78.000000,2026-07-23T05:13:08.604Z,null
+Agency-9bb8e182-dc72-4b68-9754-9926b51d134a,CN,China,CN-Agency,Agency,2026-07-22,D1,AG0043,New Recruits 3M Activation #,607.000000,2026-07-23T05:13:08.604Z,null
+Agency-1ebf83e4-067f-47d6-974e-18f1a5651145,CN,China,CN-Agency,Agency,2026-07-22,D1,AG0055,# of Active Recruiting Leaders,58.000000,2026-07-23T05:13:08.604Z,null
+Agency-3127b9af-16cc-4c29-b1c1-5619f854c21c,CN,China,CN-Agency,Agency,2026-07-22,D1,AG0038,New recruits,152.000000,2026-07-23T05:13:08.604Z,null
+Agency-1e94d2a8-810a-4844-956b-705cd67221f6,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0020_4,Net Case Count - Agency 13+M,5655.500000,2026-08-05T05:09:11.188Z,null
+Agency-97aed0e0-4a43-4ecd-868f-a124e752736c,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0038,New recruits,292.000000,2026-08-05T05:09:11.188Z,null
+Agency-fc7578fd-68be-4af9-b9e0-8a83888412d9,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0043,New Recruits 3M Activation #,684.000000,2026-08-05T05:09:11.188Z,null
+Agency-280ce4c7-2cdc-4923-b580-be8238406cf6,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0062_6,# of pro-rated MDRT agents (70-99%),341.000000,2026-08-05T05:09:11.188Z,null
+Agency-a57bd731-a331-4772-94c1-c0ec36ec0d7a,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0029_12_3,Total agent headcount (end of period) in pro-rated MDRT agents (50-69% of pro-rated achievement),335.000000,2026-08-05T05:09:11.188Z,null
+Agency-21953fa3-74b0-4612-a0a8-a0a4accd4e8a,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0051,Total # of Leaders (end of period),1246.000000,2026-08-05T05:09:11.188Z,null
+Agency-3d202420-8261-4665-808d-6bb655510742,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0062_8,# of Top-tier agents,1663.000000,2026-08-05T05:09:11.188Z,null
+Agency-2cfad8cc-0ddb-4471-9d7c-e4b2cae70d2a,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0016_1,# of 1-Month Active Agents in 0-1M,116.000000,2026-08-05T05:09:11.188Z,null
+Agency-4059957c-3f77-4096-b6df-31f3b8714139,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0016_4,# of 1-Month Active Agents 13+M,2851.000000,2026-08-05T05:09:11.188Z,null
+Agency-0e18801a-6dab-4027-a562-611dfe3921a6,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0029_12,Total agent headcount (end of period) in Top-tier Agents,1663.000000,2026-08-05T05:09:11.188Z,null
+Agency-a8d33494-65f7-4139-b243-2a56fae61e06,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0029_12_1,Total agent headcount (end of period) in pro-rated MDRT agents (>100% of pro-rated achievement),987.000000,2026-08-05T05:09:11.188Z,null
+Agency-cc2f797c-da56-4535-963f-bceee2983b08,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0029_12_2,Total agent headcount (end of period) in pro-rated MDRT agents (70-99% of pro-rated achievement),341.000000,2026-08-05T05:09:11.188Z,null
+Agency-be09b215-ff71-487d-bae6-6a7127e914ad,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0041,# of 6-90 agents,114.000000,2026-08-05T05:09:11.188Z,null
+Agency-5ffb69e5-72b0-4317-b52c-60703ee7b74a,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0055,# of Active Recruiting Leaders,130.000000,2026-08-05T05:09:11.188Z,null
+Agency-4888b6ac-64e4-494e-bbe0-b640f460c8c4,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0062,# of pro-rated MDRT agents (100%),987.000000,2026-08-05T05:09:11.188Z,null
+Agency-55028ee9-a518-4d17-8769-8702b863459b,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0016,# of 1-Month Active Agents,3498.000000,2026-08-05T05:09:11.188Z,null
+Agency-392d790a-225c-4c0c-9e17-1645530401dc,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0016_2,# of 1-Month Active Agents in 2-3M,214.000000,2026-08-05T05:09:11.188Z,null
+Agency-c41c0783-839f-48ca-9622-2d397627058d,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0016_3,# of 1-Month Active Agents in 4-12M,317.000000,2026-08-05T05:09:11.188Z,null
+Agency-9062db99-6c9e-494d-83a4-229adee315f6,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0020,Net Case Count - Agency,6908.500000,2026-08-05T05:09:11.188Z,null
+Agency-43ab7a2e-c7d2-4e00-845f-a4351df182ac,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0029,Total agent headcount (end of period),7324.000000,2026-08-05T05:09:11.188Z,null
+Agency-8b191a05-1a12-447d-b40a-1d36fc9d175b,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0062_7,# of pro-rated MDRT agents (50-69%),335.000000,2026-08-05T05:09:11.188Z,null
+Agency-4d38e842-bd3c-4412-9930-21afcdd11982,CN,China,CN-Agency,Agency,2026-07-31,M1,AG0070,# of MDRT qualifiers - YTD,555.000000,2026-08-05T05:09:11.188Z,null
+Agency-4c54fba4-a2aa-4417-bcf5-3ea6eaade1f0,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0016_4,# of 1-Month Active Agents 13+M,2846.000000,null,null
+Agency-acb625d3-2fee-4f73-9bd9-5fa7cb754d79,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0029_12_2,Total agent headcount (end of period) in pro-rated MDRT agents (70-99% of pro-rated achievement),348.000000,null,null
+Agency-4c1f9195-4551-418e-99ae-9b52a4e26508,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0043,New Recruits 3M Activation #,538.000000,null,null
+Agency-83e32328-8284-43d1-85cb-a96e2dbb36a6,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0062,# of pro-rated MDRT agents (100%),1094.000000,null,null
+Agency-7c24e0e1-c7a2-44fb-8a0c-cca9bc59b13a,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0062_6,# of pro-rated MDRT agents (70-99%),348.000000,null,null
+Agency-7a587026-06bd-4f31-8f52-697f69145873,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0029_12_1,Total agent headcount (end of period) in pro-rated MDRT agents (>100% of pro-rated achievement),1094.000000,null,null
+Agency-b080aa28-a523-418f-a218-cfaec2c276c3,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0029_12_3,Total agent headcount (end of period) in pro-rated MDRT agents (50-69% of pro-rated achievement),387.000000,null,null
+Agency-fab5ae28-564f-4e7c-b193-87443641fe32,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0038,New recruits,280.000000,null,null
+Agency-82af4f8b-244d-4857-8015-3e4323113cd0,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0051,Total # of Leaders (end of period),1244.000000,null,null
+Agency-f8fe8421-6bbb-42e0-9508-d301952f3f71,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0070,# of MDRT qualifiers - YTD,443.000000,null,null
+Agency-ba2ebab5-5b9f-4f63-8b99-efcda0511e2b,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0029,Total agent headcount (end of period),7199.000000,null,null
+Agency-45734009-c249-4112-860f-1fb07036db90,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0029_12,Total agent headcount (end of period) in Top-tier Agents,1829.000000,null,null
+Agency-c9a53378-ee72-449d-b708-aab08a3602b3,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0055,# of Active Recruiting Leaders,141.000000,null,null
+Agency-9b41c8ea-13c1-4cf6-be69-22a77f16ce25,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0062_7,# of pro-rated MDRT agents (50-69%),387.000000,null,null
+Agency-de8d6936-ce8f-42ed-847c-169c7899f9c5,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0062_8,# of Top-tier agents,1829.000000,null,null
+Agency-a3438e45-7d63-44c0-9ddb-05c8449b4e78,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0016,# of 1-Month Active Agents,3542.000000,null,null
+Agency-c923a0a2-7ca7-440f-80fe-c554d1653efc,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0016_1,# of 1-Month Active Agents in 0-1M,155.000000,null,null
+Agency-567529e7-5dc5-440f-8a01-8b145b00e671,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0016_2,# of 1-Month Active Agents in 2-3M,181.000000,null,null
+Agency-b19f0515-1faf-4ed5-820f-e98b27dd5534,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0016_3,# of 1-Month Active Agents in 4-12M,360.000000,null,null
+Agency-e0d34c17-8496-4a88-9005-2ce2ed8542b8,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0020,Net Case Count - Agency,7438.000000,null,null
+Agency-d16e730c-161f-4c48-b6da-608d46f2956e,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0020_4,Net Case Count - Agency 13+M,6007.000000,null,null
+Agency-3e05d0fb-4fef-4398-aa1b-b409388b9ee8,CN,China,CN-Agency,Agency,2026-05-31,M1,AG0041,# of 6-90 agents,80.000000,null,null
+Agency-d8db68f9-a8b9-4289-807c-b7193dc2d319,CN,China,CN-Agency,Agency,2026-07-15,D1,AG0016,# of 1-Month Active Agents,2055.000000,2026-07-16T05:13:09.007Z,null
+Agency-3e84ba6d-6174-45cb-91a1-dd966f6d1248,CN,China,CN-Agency,Agency,2026-07-15,D1,AG0020,Net Case Count - Agency,3206.000000,2026-07-16T05:13:09.007Z,null
+Agency-49867591-c23a-4253-9e93-f7b06bd480a6,CN,China,CN-Agency,Agency,2026-07-15,D1,AG0043,New Recruits 3M Activation #,590.000000,2026-07-16T05:13:09.007Z,null
+Agency-75da3a61-5b21-4c84-82b7-08e5d4d58f78,CN,China,CN-Agency,Agency,2026-07-15,D1,AG0038,New recruits,75.000000,2026-07-16T05:13:09.007Z,null
+Agency-6d6dd042-3641-4d22-922a-7540a0c268c9,CN,China,CN-Agency,Agency,2026-07-15,D1,AG0041,# of 6-90 agents,75.000000,2026-07-16T05:13:09.007Z,null
+Agency-e5f94873-18bc-415e-9625-7f70ddc46596,CN,China,CN-Agency,Agency,2026-07-15,D1,AG0055,# of Active Recruiting Leaders,34.000000,2026-07-16T05:13:09.007Z,null
+Agency-06403a95-78d0-4ea4-be5d-c22c638443bd,CN,China,CN-Agency,Agency,2026-07-12,D1,AG0016,# of 1-Month Active Agents,1838.000000,2026-07-13T05:14:09.266Z,null
+Agency-e0650995-63f5-4bc0-b8a7-472b78c74c36,CN,China,CN-Agency,Agency,2026-07-12,D1,AG0038,New recruits,45.000000,2026-07-13T05:14:09.266Z,null
+Agency-054552d2-90da-4a10-bac2-9e11cb27b718,CN,China,CN-Agency,Agency,2026-07-12,D1,AG0043,New Recruits 3M Activation #,580.000000,2026-07-13T05:14:09.266Z,null
+Agency-c50efabd-c3df-4668-b1e6-1a7b5b228075,CN,China,CN-Agency,Agency,2026-07-12,D1,AG0055,# of Active Recruiting Leaders,19.000000,2026-07-13T05:14:09.266Z,null
+Agency-4e4020c6-511b-4972-ae00-c36ea78757b8,CN,China,CN-Agency,Agency,2026-07-12,D1,AG0020,Net Case Count - Agency,2744.000000,2026-07-13T05:14:09.266Z,null
+Agency-691a5f0e-0794-4fc7-82c9-18eeb6429978,CN,China,CN-Agency,Agency,2026-07-12,D1,AG0041,# of 6-90 agents,74.000000,2026-07-13T05:14:09.266Z,null
+Agency-183be213-9c3c-4836-b2ec-a68eab43638f,CN,China,CN-Agency,Agency,2026-07-19,D1,AG0016,# of 1-Month Active Agents,2290.000000,2026-07-20T05:13:38.341Z,null
+Agency-68815aa6-7c90-41ae-a0be-040322ff9712,CN,China,CN-Agency,Agency,2026-07-19,D1,AG0038,New recruits,116.000000,2026-07-20T05:13:38.341Z,null
+Agency-1e35bfa5-5a32-49f5-893a-bd25897d78a7,CN,China,CN-Agency,Agency,2026-07-19,D1,AG0055,# of Active Recruiting Leaders,44.000000,2026-07-20T05:13:38.341Z,null
+Agency-25245358-5027-4e3e-8b6a-2b244edea6b2,CN,China,CN-Agency,Agency,2026-07-19,D1,AG0020,Net Case Count - Agency,3661.000000,2026-07-20T05:13:38.341Z,null
+Agency-6653ad22-179c-4483-9036-b5ba3ec273ab,CN,China,CN-Agency,Agency,2026-07-19,D1,AG0041,# of 6-90 agents,75.000000,2026-07-20T05:13:38.341Z,null
+Agency-f42b5ec0-9bc7-4baf-9065-51fb98310866,CN,China,CN-Agency,Agency,2026-07-19,D1,AG0043,New Recruits 3M Activation #,597.000000,2026-07-20T05:13:38.341Z,null
+Agency-89c02816-d2f0-431b-baa2-09cdb27aca40,CN,China,CN-Agency,Agency,2026-06-23,D1,AG0038,New recruits,213.000000,2026-06-24T05:13:08.941Z,null
+Agency-6bf2832b-8417-4b37-a075-bc758b707a7b,CN,China,CN-Agency,Agency,2026-06-23,D1,AG0016,# of 1-Month Active Agents,2904.000000,2026-06-24T05:13:08.941Z,null
+Agency-b6c079c7-0ade-4579-b620-893042007d9d,CN,China,CN-Agency,Agency,2026-06-23,D1,AG0020,Net Case Count - Agency,5406.000000,2026-06-24T05:13:08.941Z,null
+Agency-a2551b9e-b256-4850-9e5b-e3c7915d4478,CN,China,CN-Agency,Agency,2026-06-23,D1,AG0041,# of 6-90 agents,74.000000,2026-06-24T05:13:08.941Z,null
+Agency-b51c623d-65d4-497d-a0f0-b92ad37075d3,CN,China,CN-Agency,Agency,2026-06-23,D1,AG0043,New Recruits 3M Activation #,552.000000,2026-06-24T05:13:08.941Z,null
+Agency-6b33a910-07e5-4259-9013-c8bd61d37c30,CN,China,CN-Agency,Agency,2026-06-23,D1,AG0055,# of Active Recruiting Leaders,106.000000,2026-06-24T05:13:08.941Z,null
+Agency-4d734c99-844f-4b5a-b934-d8e709cdcc36,CN,China,CN-Agency,Agency,2026-07-21,D1,AG0055,# of Active Recruiting Leaders,55.000000,2026-07-22T05:14:13.900Z,null
+Agency-518149a0-a510-412e-807a-5c14b0dc834e,CN,China,CN-Agency,Agency,2026-07-21,D1,AG0016,# of 1-Month Active Agents,2459.000000,2026-07-22T05:14:13.900Z,null
+Agency-d7728c77-5d49-4f1b-be96-2844bb70b3d8,CN,China,CN-Agency,Agency,2026-07-21,D1,AG0041,# of 6-90 agents,76.000000,2026-07-22T05:14:13.900Z,null
+Agency-490f61e5-c4ad-46d0-84e9-981c4d91807c,CN,China,CN-Agency,Agency,2026-07-21,D1,AG0020,Net Case Count - Agency,4040.000000,2026-07-22T05:14:13.900Z,null
+Agency-a43aadc0-ee55-40e8-bb5f-e7a3356d2a3e,CN,China,CN-Agency,Agency,2026-07-21,D1,AG0043,New Recruits 3M Activation #,604.000000,2026-07-22T05:14:13.900Z,null
+Agency-451984b3-ceb3-48dc-966e-90f0f71af8fc,CN,China,CN-Agency,Agency,2026-07-21,D1,AG0038,New recruits,142.000000,2026-07-22T05:14:13.900Z,null
+Agency-4ebc0e78-2ff6-4096-8e52-f91b9042bf42,CN,China,CN-Agency,Agency,2026-06-26,D1,AG0038,New recruits,302.000000,2026-06-27T05:12:10.595Z,null
+Agency-98fcb3fd-1ded-430a-bec2-392ff7fd6669,CN,China,CN-Agency,Agency,2026-06-26,D1,AG0055,# of Active Recruiting Leaders,148.000000,2026-06-27T05:12:10.595Z,null
+Agency-8cc26f1e-cf93-4ba4-a3b0-ddc47389ae15,CN,China,CN-Agency,Agency,2026-06-26,D1,AG0016,# of 1-Month Active Agents,3350.000000,2026-06-27T05:12:10.595Z,null
+Agency-80db47ae-9d2b-472c-b808-d354e114f25c,CN,China,CN-Agency,Agency,2026-06-26,D1,AG0020,Net Case Count - Agency,6799.000000,2026-06-27T05:12:10.595Z,null
+Agency-70a46cfc-a45f-40e9-acc3-659fe06032e7,CN,China,CN-Agency,Agency,2026-06-26,D1,AG0041,# of 6-90 agents,85.000000,2026-06-27T05:12:10.595Z,null
+Agency-30d662b4-14b3-4c72-9ccb-71a06bdd8a11,CN,China,CN-Agency,Agency,2026-06-26,D1,AG0043,New Recruits 3M Activation #,613.000000,2026-06-27T05:12:10.595Z,null
+Agency-27c67aa3-acc5-4175-bafb-fb846b19c148,CN,China,CN-Agency,Agency,2026-07-23,D1,AG0016,# of 1-Month Active Agents,2625.000000,2026-07-24T05:17:39.462Z,null
+Agency-e4f2c334-fd78-40cb-b432-8cf523ff2734,CN,China,CN-Agency,Agency,2026-07-23,D1,AG0038,New recruits,163.000000,2026-07-24T05:17:39.462Z,null
+Agency-34bb8d3e-24f1-4ade-9a44-f0e0626d3e1c,CN,China,CN-Agency,Agency,2026-07-23,D1,AG0041,# of 6-90 agents,79.000000,2026-07-24T05:17:39.462Z,null
+Agency-a27c309e-2a17-4cda-b529-509d66e6abcf,CN,China,CN-Agency,Agency,2026-07-23,D1,AG0020,Net Case Count - Agency,4454.000000,2026-07-24T05:17:39.462Z,null
+Agency-d281b4c8-4e3b-4266-8bb5-9ec33325bc74,CN,China,CN-Agency,Agency,2026-07-23,D1,AG0043,New Recruits 3M Activation #,614.000000,2026-07-24T05:17:39.462Z,null
+Agency-8a602576-d939-4e78-972b-3d4748403d8e,CN,China,CN-Agency,Agency,2026-07-23,D1,AG0055,# of Active Recruiting Leaders,64.000000,2026-07-24T05:17:39.462Z,null
+Agency-6bf03bcf-9747-41de-9d4c-e0e7e27bd1db,CN,China,CN-Agency,Agency,2026-07-06,D1,AG0020,Net Case Count - Agency,1473.000000,2026-07-07T05:10:24.875Z,null
+Agency-608986dc-8162-49ce-85a4-471a63e89c63,CN,China,CN-Agency,Agency,2026-07-06,D1,AG0038,New recruits,20.000000,2026-07-07T05:10:24.875Z,null
+Agency-16943996-43bb-465f-ba04-695b9491373b,CN,China,CN-Agency,Agency,2026-07-06,D1,AG0055,# of Active Recruiting Leaders,8.000000,2026-07-07T05:10:24.875Z,null
+Agency-86d94619-dc5d-4c05-aefa-c0e8ff998ab2,CN,China,CN-Agency,Agency,2026-07-06,D1,AG0041,# of 6-90 agents,68.000000,2026-07-07T05:10:24.875Z,null
+Agency-850716f5-584b-436e-9d5b-0ae8fc39e0ae,CN,China,CN-Agency,Agency,2026-07-06,D1,AG0043,New Recruits 3M Activation #,558.000000,2026-07-07T05:10:24.875Z,null
+Agency-5e82c303-2bfb-4706-858b-95aeff39f664,CN,China,CN-Agency,Agency,2026-07-06,D1,AG0016,# of 1-Month Active Agents,1113.000000,2026-07-07T05:10:24.875Z,null
+Agency-83a3b858-b872-4280-a357-8a7a469d1291,CN,China,CN-Agency,Agency,2026-07-16,D1,AG0016,# of 1-Month Active Agents,2118.000000,2026-07-17T05:13:42.376Z,null
+Agency-ea9a43eb-2184-448e-8b0d-0ec927631bcd,CN,China,CN-Agency,Agency,2026-07-16,D1,AG0041,# of 6-90 agents,75.000000,2026-07-17T05:13:42.376Z,null
+Agency-9377c4c5-2a85-4552-90e9-47256b623978,CN,China,CN-Agency,Agency,2026-07-16,D1,AG0043,New Recruits 3M Activation #,591.000000,2026-07-17T05:13:42.376Z,null
+Agency-f234a725-d647-4380-9dbf-88218db6f6ac,CN,China,CN-Agency,Agency,2026-07-16,D1,AG0055,# of Active Recruiting Leaders,41.000000,2026-07-17T05:13:42.376Z,null
+Agency-c77d6c7a-6216-4042-a8bd-7bf142a65d28,CN,China,CN-Agency,Agency,2026-07-16,D1,AG0020,Net Case Count - Agency,3343.000000,2026-07-17T05:13:42.376Z,null
+Agency-c1d1dc73-0f4c-41e4-a91f-4917d16ee0a9,CN,China,CN-Agency,Agency,2026-07-16,D1,AG0038,New recruits,100.000000,2026-07-17T05:13:42.376Z,null
+Agency-bc444b8f-b6ad-4716-873d-84e5fb9ead62,CN,China,CN-Agency,Agency,2026-07-03,D1,AG0038,New recruits,15.000000,2026-07-04T05:13:11.531Z,null
+Agency-d9857ce0-67ee-446a-bd89-9e0ec9f43fc3,CN,China,CN-Agency,Agency,2026-07-03,D1,AG0055,# of Active Recruiting Leaders,5.000000,2026-07-04T05:13:11.531Z,null
+Agency-c8dd1e53-1329-452f-b55a-773b65387ee7,CN,China,CN-Agency,Agency,2026-07-03,D1,AG0016,# of 1-Month Active Agents,764.000000,2026-07-04T05:13:11.531Z,null
+Agency-010b7b7a-0630-4c15-8387-873268b926d5,CN,China,CN-Agency,Agency,2026-07-03,D1,AG0020,Net Case Count - Agency,967.000000,2026-07-04T05:13:11.531Z,null
+Agency-d2bffbe4-8a67-48b9-b778-8cc8655573ac,CN,China,CN-Agency,Agency,2026-07-03,D1,AG0041,# of 6-90 agents,68.000000,2026-07-04T05:13:11.531Z,null
+Agency-b7d5723e-6700-4ecd-8b8c-c49d633f0128,CN,China,CN-Agency,Agency,2026-07-03,D1,AG0043,New Recruits 3M Activation #,555.000000,2026-07-04T05:13:11.531Z,null
+Agency-39a9bd63-4f17-4716-8135-6cf2d6ab0c88,CN,China,CN-Agency,Agency,2026-06-29,D1,AG0020,Net Case Count - Agency,8586.000000,2026-06-30T05:12:59.422Z,null
+Agency-b07a2386-34a5-4ce3-b45a-6277124e0d2b,CN,China,CN-Agency,Agency,2026-06-29,D1,AG0041,# of 6-90 agents,103.000000,2026-06-30T05:12:59.422Z,null
+Agency-c86445c0-f057-4d5a-b239-510b0bb602e2,CN,China,CN-Agency,Agency,2026-06-29,D1,AG0038,New recruits,350.000000,2026-06-30T05:12:59.422Z,null
+Agency-5fb13485-6795-42fd-ae8f-06bbcbb34d6c,CN,China,CN-Agency,Agency,2026-06-29,D1,AG0043,New Recruits 3M Activation #,676.000000,2026-06-30T05:12:59.422Z,null
+Agency-2cea27e4-da60-4905-bf7c-8984fb4bc1cd,CN,China,CN-Agency,Agency,2026-06-29,D1,AG0016,# of 1-Month Active Agents,3932.000000,2026-06-30T05:12:59.422Z,null
+Agency-65644a6a-ef7a-423a-8733-ebd436ff0307,CN,China,CN-Agency,Agency,2026-06-29,D1,AG0055,# of Active Recruiting Leaders,170.000000,2026-06-30T05:12:59.422Z,null
+Agency-ef3c2a8d-999e-4f4a-b660-d7b972b574b1,CN,China,CN-Agency,Agency,2026-06-25,D1,AG0038,New recruits,261.000000,2026-06-26T05:13:10.045Z,null
+Agency-de5a73b2-20e8-4b89-9e04-b53bfe332bc9,CN,China,CN-Agency,Agency,2026-06-25,D1,AG0043,New Recruits 3M Activation #,598.000000,2026-06-26T05:13:10.045Z,null
+Agency-3dc0aece-8713-484f-86bc-0b34a64497b2,CN,China,CN-Agency,Agency,2026-06-25,D1,AG0055,# of Active Recruiting Leaders,128.000000,2026-06-26T05:13:10.045Z,null
+Agency-cf7382d7-7717-4832-9641-fbf4073798b4,CN,China,CN-Agency,Agency,2026-06-25,D1,AG0016,# of 1-Month Active Agents,3195.000000,2026-06-26T05:13:10.045Z,null
+Agency-e28497c9-644f-430e-b048-7429fa87cf43,CN,China,CN-Agency,Agency,2026-06-25,D1,AG0020,Net Case Count - Agency,6304.000000,2026-06-26T05:13:10.045Z,null
+Agency-04562d70-c70d-4ecd-9c26-1d1358a6135c,CN,China,CN-Agency,Agency,2026-06-25,D1,AG0041,# of 6-90 agents,80.000000,2026-06-26T05:13:10.045Z,null
+Agency-8522432b-15a8-4a9d-8c1c-1bb92c6d57d1,CN,China,CN-Agency,Agency,2026-07-09,D1,AG0038,New recruits,38.000000,2026-07-10T05:13:17.594Z,null
+Agency-5c40cef3-86f0-4cf4-88ff-749942d242ce,CN,China,CN-Agency,Agency,2026-07-09,D1,AG0055,# of Active Recruiting Leaders,16.000000,2026-07-10T05:13:17.594Z,null
+Agency-160a4f3c-05d1-4e4b-8207-033e0739cbf2,CN,China,CN-Agency,Agency,2026-07-09,D1,AG0016,# of 1-Month Active Agents,1590.000000,2026-07-10T05:13:17.594Z,null
+Agency-ca3c7ba6-939e-42b3-95a3-00a36f855924,CN,China,CN-Agency,Agency,2026-07-09,D1,AG0020,Net Case Count - Agency,2290.000000,2026-07-10T05:13:17.594Z,null
+Agency-f36a2319-ea6b-4dae-804c-b2b9aece12d8,CN,China,CN-Agency,Agency,2026-07-09,D1,AG0041,# of 6-90 agents,73.000000,2026-07-10T05:13:17.594Z,null
+Agency-9bdce2c3-c416-4288-a24d-33c2c3faf356,CN,China,CN-Agency,Agency,2026-07-09,D1,AG0043,New Recruits 3M Activation #,570.000000,2026-07-10T05:13:17.594Z,null
+Agency-5899dc6a-052d-48fc-b45a-b12751a20d36,CN,China,CN-Agency,Agency,2026-07-04,D1,AG0016,# of 1-Month Active Agents,881.000000,2026-07-05T05:13:01.112Z,null
+Agency-784c4e71-9302-44c0-b5be-18ee68ec7a40,CN,China,CN-Agency,Agency,2026-07-04,D1,AG0038,New recruits,15.000000,2026-07-05T05:13:01.112Z,null
+Agency-8d44ccfd-41b8-4fbf-90dc-6befbe0926f3,CN,China,CN-Agency,Agency,2026-07-04,D1,AG0043,New Recruits 3M Activation #,557.000000,2026-07-05T05:13:01.112Z,null
+Agency-c034a2d2-f302-4b37-a7f4-89c63c47fd9b,CN,China,CN-Agency,Agency,2026-07-04,D1,AG0055,# of Active Recruiting Leaders,5.000000,2026-07-05T05:13:01.112Z,null
+Agency-1e6ae3fc-2c15-40ec-af65-2d30b3995420,CN,China,CN-Agency,Agency,2026-07-04,D1,AG0020,Net Case Count - Agency,1128.000000,2026-07-05T05:13:01.112Z,null
+Agency-70804868-401f-420a-84e2-328ee4a4affc,CN,China,CN-Agency,Agency,2026-07-04,D1,AG0041,# of 6-90 agents,68.000000,2026-07-05T05:13:01.112Z,null
+Agency-fbce08a6-890a-43aa-98af-ec9024f34e9f,CN,China,CN-Agency,Agency,2026-07-24,D1,AG0016,# of 1-Month Active Agents,2677.000000,2026-07-25T05:07:57.190Z,null
+Agency-6006d73e-a81c-4d24-aff7-2c14aeac5e8e,CN,China,CN-Agency,Agency,2026-07-24,D1,AG0043,New Recruits 3M Activation #,618.000000,2026-07-25T05:07:57.190Z,null
+Agency-e11af094-5bf9-47ac-a439-950b7e92d6ec,CN,China,CN-Agency,Agency,2026-07-24,D1,AG0020,Net Case Count - Agency,4642.000000,2026-07-25T05:07:57.190Z,null
+Agency-249a1872-b5b8-4321-90d5-ece61d7b79e5,CN,China,CN-Agency,Agency,2026-07-24,D1,AG0038,New recruits,175.000000,2026-07-25T05:07:57.190Z,null
+Agency-5d7068b4-ea0c-4542-9d35-37fd6f474216,CN,China,CN-Agency,Agency,2026-07-24,D1,AG0041,# of 6-90 agents,80.000000,2026-07-25T05:07:57.190Z,null
+Agency-99efa856-c6d5-4381-8395-b040d2037ad4,CN,China,CN-Agency,Agency,2026-07-24,D1,AG0055,# of Active Recruiting Leaders,70.000000,2026-07-25T05:07:57.190Z,null
+Agency-7731f907-5cee-495b-aa92-ca9563acb95c,CN,China,CN-Agency,Agency,2026-07-13,D1,AG0041,# of 6-90 agents,74.000000,2026-07-14T05:14:33.625Z,null
+Agency-625908e7-32c2-47ba-9b04-61c6a641f072,CN,China,CN-Agency,Agency,2026-07-13,D1,AG0020,Net Case Count - Agency,2910.000000,2026-07-14T05:14:33.625Z,null
+Agency-3437ff04-5bdb-49b2-9471-7e140d956ad3,CN,China,CN-Agency,Agency,2026-07-13,D1,AG0038,New recruits,45.000000,2026-07-14T05:14:33.625Z,null
+Agency-77b776df-1684-4e19-96fa-885c2177bc67,CN,China,CN-Agency,Agency,2026-07-13,D1,AG0055,# of Active Recruiting Leaders,19.000000,2026-07-14T05:14:33.625Z,null
+Agency-7cd1548f-4fef-4686-bff3-e0331cd64ae7,CN,China,CN-Agency,Agency,2026-07-13,D1,AG0016,# of 1-Month Active Agents,1920.000000,2026-07-14T05:14:33.625Z,null
+Agency-71a27697-ec0a-4153-89a6-056d7dcbf1b5,CN,China,CN-Agency,Agency,2026-07-13,D1,AG0043,New Recruits 3M Activation #,583.000000,2026-07-14T05:14:33.625Z,null
+Agency-0b916f2e-fc6e-4fe3-9ccb-f9b0d0547c51,CN,China,CN-Agency,Agency,2026-06-28,D1,AG0016,# of 1-Month Active Agents,3569.000000,2026-06-29T05:13:56.570Z,null
+Agency-82c121d0-405f-4659-ab6c-62b35b08d99b,CN,China,CN-Agency,Agency,2026-06-28,D1,AG0038,New recruits,307.000000,2026-06-29T05:13:56.570Z,null
+Agency-a7507f4d-3fc5-4cc3-82fc-3db5bf92e943,CN,China,CN-Agency,Agency,2026-06-28,D1,AG0020,Net Case Count - Agency,7392.000000,2026-06-29T05:13:56.570Z,null
+Agency-3f3c00b5-b7e3-46d2-9b2a-d4ced00ac26c,CN,China,CN-Agency,Agency,2026-06-28,D1,AG0055,# of Active Recruiting Leaders,149.000000,2026-06-29T05:13:56.570Z,null
+Agency-d260c431-1ecd-482b-903f-2e8dc674a9ac,CN,China,CN-Agency,Agency,2026-06-28,D1,AG0041,# of 6-90 agents,88.000000,2026-06-29T05:13:56.570Z,null
+Agency-88329368-dd02-49be-b542-c902ea70fc8b,CN,China,CN-Agency,Agency,2026-06-28,D1,AG0043,New Recruits 3M Activation #,635.000000,2026-06-29T05:13:56.570Z,null
+Agency-7c5ac4ca-13fc-4596-97e3-50d21f5d9893,CN,China,CN-Agency,Agency,2026-08-07,D1,AG0016,# of 1-Month Active Agents,939.000000,2026-08-08T05:07:55.551Z,null
+Agency-53a8df9b-80ef-469a-8ccf-8fc38888e42a,CN,China,CN-Agency,Agency,2026-08-07,D1,AG0041,# of 6-90 agents,49.000000,2026-08-08T05:07:55.551Z,null
+Agency-5b449cca-4560-42e5-9eb9-7d1c86990345,CN,China,CN-Agency,Agency,2026-08-07,D1,AG0043,New Recruits 3M Activation #,481.000000,2026-08-08T05:07:55.551Z,null
+Agency-cf1772b9-5201-4bc8-8cbb-37b2781441c5,CN,China,CN-Agency,Agency,2026-08-07,D1,AG0038,New recruits,53.000000,2026-08-08T05:07:55.551Z,null
+Agency-22695546-d048-49f4-b0b3-a7f18399ce9b,CN,China,CN-Agency,Agency,2026-08-07,D1,AG0020,Net Case Count - Agency,1183.000000,2026-08-08T05:07:55.551Z,null
+Agency-dae25c03-4213-48cb-ae1e-baf600015e25,CN,China,CN-Agency,Agency,2026-08-07,D1,AG0055,# of Active Recruiting Leaders,28.000000,2026-08-08T05:07:55.551Z,null
+Agency-acbd1a4c-484d-46bc-a827-51f26805a78b,CN,China,CN-Agency,Agency,2026-07-11,D1,AG0020,Net Case Count - Agency,2645.000000,2026-07-12T05:14:55.893Z,null
+Agency-a33e2bcd-d56b-4502-bc13-4bbdef0ba9e5,CN,China,CN-Agency,Agency,2026-07-11,D1,AG0038,New recruits,45.000000,2026-07-12T05:14:55.893Z,null
+Agency-265fdb3a-74ec-48fb-a658-ba96e49a5fc5,CN,China,CN-Agency,Agency,2026-07-11,D1,AG0043,New Recruits 3M Activation #,580.000000,2026-07-12T05:14:55.893Z,null
+Agency-24975c78-3dbc-489e-9049-5c98ba12d28e,CN,China,CN-Agency,Agency,2026-07-11,D1,AG0016,# of 1-Month Active Agents,1782.000000,2026-07-12T05:14:55.893Z,null
+Agency-984eb52e-f9a2-4825-95f9-bb6d41a1864a,CN,China,CN-Agency,Agency,2026-07-11,D1,AG0041,# of 6-90 agents,74.000000,2026-07-12T05:14:55.893Z,null
+Agency-8c364d91-d708-49a3-9bb9-358f9441f0ff,CN,China,CN-Agency,Agency,2026-07-11,D1,AG0055,# of Active Recruiting Leaders,19.000000,2026-07-12T05:14:55.893Z,null
+Agency-8c2fb037-6c54-4948-9c52-f2920874f121,CN,China,CN-Agency,Agency,2026-06-24,D1,AG0016,# of 1-Month Active Agents,3040.000000,2026-06-25T05:13:04.911Z,null
+Agency-6c7f472d-2d09-4d93-b318-739b7ed177a2,CN,China,CN-Agency,Agency,2026-06-24,D1,AG0020,Net Case Count - Agency,5847.000000,2026-06-25T05:13:04.911Z,null
+Agency-36becaeb-87d5-407a-94d5-aa4d0462a0de,CN,China,CN-Agency,Agency,2026-06-24,D1,AG0055,# of Active Recruiting Leaders,120.000000,2026-06-25T05:13:04.911Z,null
+Agency-199023e1-0935-48a2-b07d-7aa189591b41,CN,China,CN-Agency,Agency,2026-06-24,D1,AG0043,New Recruits 3M Activation #,576.000000,2026-06-25T05:13:04.911Z,null
+Agency-803be780-427a-4c5e-9033-c75ef1446f84,CN,China,CN-Agency,Agency,2026-06-24,D1,AG0038,New recruits,241.000000,2026-06-25T05:13:04.911Z,null
+Agency-100ede8e-ba0c-4530-a0f6-51aa7d7907d5,CN,China,CN-Agency,Agency,2026-06-24,D1,AG0041,# of 6-90 agents,78.000000,2026-06-25T05:13:04.911Z,null
+Agency-4af11bb4-a533-48dd-a82d-1c290aefbe24,CN,China,CN-Agency,Agency,2026-07-07,D1,AG0020,Net Case Count - Agency,1765.000000,2026-07-08T05:13:57.475Z,null
+Agency-9e17804e-f7b3-4893-a705-10c18c8f1f1c,CN,China,CN-Agency,Agency,2026-07-07,D1,AG0038,New recruits,29.000000,2026-07-08T05:13:57.475Z,null
+Agency-f4a54a69-65ba-447a-8bf8-565a8736cdc1,CN,China,CN-Agency,Agency,2026-07-07,D1,AG0043,New Recruits 3M Activation #,562.000000,2026-07-08T05:13:57.475Z,null
+Agency-48c5f780-c687-488e-bc36-867fd288063a,CN,China,CN-Agency,Agency,2026-07-07,D1,AG0055,# of Active Recruiting Leaders,12.000000,2026-07-08T05:13:57.475Z,null
+Agency-3b9fa4af-7fe2-4eae-90d7-0cbdb591811e,CN,China,CN-Agency,Agency,2026-07-07,D1,AG0016,# of 1-Month Active Agents,1282.000000,2026-07-08T05:13:57.475Z,null
+Agency-777696c2-4a1a-4f4b-b325-99e3e1d8a251,CN,China,CN-Agency,Agency,2026-07-07,D1,AG0041,# of 6-90 agents,72.000000,2026-07-08T05:13:57.475Z,null
+Agency-a4223e60-18a2-4313-986a-0a7db1fd9239,CN,China,CN-Agency,Agency,2026-08-08,D1,AG0016,# of 1-Month Active Agents,1028.000000,2026-08-09T05:06:55.585Z,null
+Agency-64e201df-5920-4857-9787-ac0bbd15e6d7,CN,China,CN-Agency,Agency,2026-08-08,D1,AG0020,Net Case Count - Agency,1300.000000,2026-08-09T05:06:55.585Z,null
+Agency-046ed0ad-0938-4c48-a546-ea1bd9d5f9cd,CN,China,CN-Agency,Agency,2026-08-08,D1,AG0055,# of Active Recruiting Leaders,28.000000,2026-08-09T05:06:55.585Z,null
+Agency-063988b5-40e8-47d8-94c1-1d01712bcef2,CN,China,CN-Agency,Agency,2026-08-08,D1,AG0041,# of 6-90 agents,49.000000,2026-08-09T05:06:55.585Z,null
+Agency-a1372ca5-0414-4592-a20b-909dbb164b9f,CN,China,CN-Agency,Agency,2026-08-08,D1,AG0038,New recruits,53.000000,2026-08-09T05:06:55.585Z,null
+Agency-d82b7c15-cae4-4eff-8186-e7f92c7ffec7,CN,China,CN-Agency,Agency,2026-08-08,D1,AG0043,New Recruits 3M Activation #,483.000000,2026-08-09T05:06:55.585Z,null
+Agency-e934b03a-865c-4e9c-92bd-7c4cbe21dfab,CN,China,CN-Agency,Agency,2026-07-02,D1,AG0043,New Recruits 3M Activation #,552.000000,2026-07-03T05:13:46.765Z,null
+Agency-868f43d2-4d77-4ccf-b576-d91a58f85ad9,CN,China,CN-Agency,Agency,2026-07-02,D1,AG0016,# of 1-Month Active Agents,581.000000,2026-07-03T05:13:46.765Z,null
+Agency-6af2939c-5d27-4bcd-8359-43657d2224db,CN,China,CN-Agency,Agency,2026-07-02,D1,AG0041,# of 6-90 agents,67.000000,2026-07-03T05:13:46.765Z,null
+Agency-28e1f32a-dd4a-4fcf-9877-782b3fc05d57,CN,China,CN-Agency,Agency,2026-07-02,D1,AG0055,# of Active Recruiting Leaders,5.000000,2026-07-03T05:13:46.765Z,null
+Agency-bab7b793-a78a-420a-b1a1-4d1802c81fde,CN,China,CN-Agency,Agency,2026-07-02,D1,AG0020,Net Case Count - Agency,711.000000,2026-07-03T05:13:46.765Z,null
+Agency-1fcd0c6f-4b84-49c6-997f-d05fd10407c4,CN,China,CN-Agency,Agency,2026-07-02,D1,AG0038,New recruits,13.000000,2026-07-03T05:13:46.765Z,null
+Agency-2b6510ee-e04f-4945-9518-c5ffea2862a1,CN,China,CN-Agency,Agency,2026-08-06,D1,AG0038,New recruits,33.000000,2026-08-07T05:08:48.333Z,null
+Agency-94849d76-d99b-4697-94d8-7d6ccafee0f1,CN,China,CN-Agency,Agency,2026-08-06,D1,AG0041,# of 6-90 agents,48.000000,2026-08-07T05:08:48.333Z,null
+Agency-a5535f91-0494-4d35-92e2-679ae4dea20a,CN,China,CN-Agency,Agency,2026-08-06,D1,AG0020,Net Case Count - Agency,834.000000,2026-08-07T05:08:48.333Z,null
+Agency-9c583d55-3e55-417d-888f-a85fbc2ff73c,CN,China,CN-Agency,Agency,2026-08-06,D1,AG0016,# of 1-Month Active Agents,689.000000,2026-08-07T05:08:48.333Z,null
+Agency-8b9e0169-6aa1-44e3-87e3-ab2e437960ad,CN,China,CN-Agency,Agency,2026-08-06,D1,AG0043,New Recruits 3M Activation #,477.000000,2026-08-07T05:08:48.333Z,null
+Agency-5c42bf80-97f3-4fde-b33b-aeb9370be085,CN,China,CN-Agency,Agency,2026-08-06,D1,AG0055,# of Active Recruiting Leaders,16.000000,2026-08-07T05:08:48.333Z,null
+Agency-85664384-547b-4e91-8e14-db52b6313cdc,CN,China,CN-Agency,Agency,2026-08-04,D1,AG0016,# of 1-Month Active Agents,545.000000,2026-08-05T05:09:11.230Z,null
+Agency-96933d57-b8c2-4ddb-b998-b7e82098f258,CN,China,CN-Agency,Agency,2026-08-04,D1,AG0038,New recruits,23.000000,2026-08-05T05:09:11.230Z,null
+Agency-e4f645e8-03ed-460f-b117-fc3ae8a8b1b0,CN,China,CN-Agency,Agency,2026-08-04,D1,AG0041,# of 6-90 agents,48.000000,2026-08-05T05:09:11.230Z,null
+Agency-32431c52-0a2a-411e-810b-ed76a7d3eaf8,CN,China,CN-Agency,Agency,2026-08-04,D1,AG0055,# of Active Recruiting Leaders,10.000000,2026-08-05T05:09:11.230Z,null
+Agency-40bdb100-fc25-4f07-b800-ca447551dd38,CN,China,CN-Agency,Agency,2026-08-04,D1,AG0020,Net Case Count - Agency,643.000000,2026-08-05T05:09:11.230Z,null
+Agency-df5bb312-a599-4a75-a75e-84236eca9b1b,CN,China,CN-Agency,Agency,2026-08-04,D1,AG0043,New Recruits 3M Activation #,476.000000,2026-08-05T05:09:11.230Z,null
+Agency-7610940f-8f69-4666-819d-666e06cb8eaf,CN,China,CN-Agency,Agency,2026-08-09,D1,AG0055,# of Active Recruiting Leaders,28.000000,2026-08-10T05:08:00.670Z,null
+Agency-79f9f8b5-d439-4705-9165-db68b1ef3f34,CN,China,CN-Agency,Agency,2026-08-09,D1,AG0038,New recruits,53.000000,2026-08-10T05:08:00.670Z,null
+Agency-d8a0000a-2a64-4875-9e7b-6c62562d50d6,CN,China,CN-Agency,Agency,2026-08-09,D1,AG0041,# of 6-90 agents,49.000000,2026-08-10T05:08:00.670Z,null
+Agency-5693d43f-74c7-4212-a732-d38f12f9ffc3,CN,China,CN-Agency,Agency,2026-08-09,D1,AG0016,# of 1-Month Active Agents,1115.000000,2026-08-10T05:08:00.670Z,null
+Agency-16e82055-9fdb-486f-8306-2c57f24158f8,CN,China,CN-Agency,Agency,2026-08-09,D1,AG0020,Net Case Count - Agency,1418.000000,2026-08-10T05:08:00.670Z,null
+Agency-6be8267d-37f7-450d-9780-efe39a3ed0db,CN,China,CN-Agency,Agency,2026-08-09,D1,AG0043,New Recruits 3M Activation #,484.000000,2026-08-10T05:08:00.670Z,null
+Agency-a9acadb9-bffd-4221-b73f-7904964a501e,CN,China,CN-Agency,Agency,2026-07-18,D1,AG0016,# of 1-Month Active Agents,2236.000000,2026-07-19T05:13:44.348Z,null
+Agency-f178793f-097d-4d8f-ae36-badcbd7d137b,CN,China,CN-Agency,Agency,2026-07-18,D1,AG0020,Net Case Count - Agency,3561.000000,2026-07-19T05:13:44.348Z,null
+Agency-8519d895-6fa1-4cdc-84fe-fc673fd1b993,CN,China,CN-Agency,Agency,2026-07-18,D1,AG0043,New Recruits 3M Activation #,597.000000,2026-07-19T05:13:44.348Z,null
+Agency-07e72444-1e69-4749-8302-6160bd21bd9f,CN,China,CN-Agency,Agency,2026-07-18,D1,AG0038,New recruits,116.000000,2026-07-19T05:13:44.348Z,null
+Agency-dd09487a-7845-42c8-b3d0-c64d79260c09,CN,China,CN-Agency,Agency,2026-07-18,D1,AG0041,# of 6-90 agents,75.000000,2026-07-19T05:13:44.348Z,null
+Agency-5b3986e2-4ea9-4b1e-b97a-17e454bfb7d4,CN,China,CN-Agency,Agency,2026-07-18,D1,AG0055,# of Active Recruiting Leaders,44.000000,2026-07-19T05:13:44.348Z,null
+Agency-55a174d3-3abc-4eae-932f-71ccbf8fc3a4,CN,China,CN-Agency,Agency,2026-08-05,D1,AG0038,New recruits,33.000000,2026-08-06T05:07:48.891Z,null
+Agency-9867c498-2093-49fc-b298-cf7e0bac519a,CN,China,CN-Agency,Agency,2026-08-05,D1,AG0020,Net Case Count - Agency,834.000000,2026-08-06T05:07:48.891Z,null
+Agency-c1002632-758f-4d9b-9517-10e4b7a9e657,CN,China,CN-Agency,Agency,2026-08-05,D1,AG0043,New Recruits 3M Activation #,477.000000,2026-08-06T05:07:48.891Z,null
+Agency-95c35d38-eb85-4550-ba40-4551e6377149,CN,China,CN-Agency,Agency,2026-08-05,D1,AG0016,# of 1-Month Active Agents,689.000000,2026-08-06T05:07:48.891Z,null
+Agency-3298e0a4-9a9b-41d3-aafd-529299bc3733,CN,China,CN-Agency,Agency,2026-08-05,D1,AG0041,# of 6-90 agents,48.000000,2026-08-06T05:07:48.891Z,null
+Agency-9ec5d3dc-6b1d-4ff6-a1d3-8fd7910c8824,CN,China,CN-Agency,Agency,2026-08-05,D1,AG0055,# of Active Recruiting Leaders,16.000000,2026-08-06T05:07:48.891Z,null
+Agency-db23d439-a58a-455e-8c3c-ccfc3ba911e2,CN,China,CN-Agency,Agency,2026-06-18,D1,AG0016,# of 1-Month Active Agents,2482.000000,null,null
+Agency-643c15bc-0c82-498a-9150-5871cf0aa508,CN,China,CN-Agency,Agency,2026-06-18,D1,AG0043,New Recruits 3M Activation #,520.000000,null,null
+Agency-7036b4bd-0e03-41d3-886b-a2dc138f622e,CN,China,CN-Agency,Agency,2026-06-18,D1,AG0055,# of Active Recruiting Leaders,89.000000,null,null
+Agency-a1d91044-f19e-41ab-8496-8e86768c7dff,CN,China,CN-Agency,Agency,2026-06-18,D1,AG0020,Net Case Count - Agency,4281.000000,null,null
+Agency-836dd9af-a8ea-4243-9e76-2d5f79c60248,CN,China,CN-Agency,Agency,2026-06-18,D1,AG0041,# of 6-90 agents,64.000000,null,null
+Agency-b9e92b05-38b9-451e-9253-2cda66a3a2f3,CN,China,CN-Agency,Agency,2026-06-18,D1,AG0038,New recruits,166.000000,null,null
+Agency-9b410b05-5826-49dd-bf4f-341509f1360d,CN,China,CN-Agency,Agency,2026-06-19,D1,AG0020,Net Case Count - Agency,4437.000000,null,null
+Agency-29a108f6-147d-4055-877a-c376d1ea02a4,CN,China,CN-Agency,Agency,2026-06-19,D1,AG0016,# of 1-Month Active Agents,2554.000000,null,null
+Agency-06ef6612-841d-48d0-a004-96fefc040f15,CN,China,CN-Agency,Agency,2026-06-19,D1,AG0041,# of 6-90 agents,64.000000,null,null
+Agency-5c7790c3-86b3-4fa5-aed9-10d490973943,CN,China,CN-Agency,Agency,2026-06-19,D1,AG0038,New recruits,166.000000,null,null
+Agency-72e0489d-20df-4e89-b8fe-640347887d7d,CN,China,CN-Agency,Agency,2026-06-19,D1,AG0043,New Recruits 3M Activation #,524.000000,null,null
+Agency-4df540a0-c23a-49b3-8d54-05ef64f200c3,CN,China,CN-Agency,Agency,2026-06-19,D1,AG0055,# of Active Recruiting Leaders,89.000000,null,null
+Agency-d8ad7cd5-50fd-4392-92a5-cc3840527cbe,CN,China,CN-Agency,Agency,2026-06-07,D1,AG0041,# of 6-90 agents,51.000000,null,null
+Agency-2ea3aeb7-741a-47d5-9d15-97fbbab2489f,CN,China,CN-Agency,Agency,2026-06-07,D1,AG0055,# of Active Recruiting Leaders,31.000000,null,null
+Agency-4a5cc97b-2fa1-41d1-b2b3-39c7595d8b75,CN,China,CN-Agency,Agency,2026-06-07,D1,AG0016,# of 1-Month Active Agents,1166.000000,null,null
+Agency-1b11a6e0-144c-478b-9259-7cd4ee31bd7a,CN,China,CN-Agency,Agency,2026-06-07,D1,AG0020,Net Case Count - Agency,1562.000000,null,null
+Agency-be9e92a2-74bd-4e95-8d13-3a0b4412ea96,CN,China,CN-Agency,Agency,2026-06-07,D1,AG0038,New recruits,49.000000,null,null
+Agency-ee606d28-5ba1-429a-a350-544bf93e119d,CN,China,CN-Agency,Agency,2026-06-07,D1,AG0043,New Recruits 3M Activation #,455.000000,null,null
+Agency-a62bf7c4-ad4d-4c10-9300-779c570bd1f3,CN,China,CN-Agency,Agency,2026-07-01,D1,AG0038,New recruits,6.000000,2026-07-02T05:13:07.346Z,null
+Agency-8a91b7bc-0bf8-4e11-9f57-6632b7db07ed,CN,China,CN-Agency,Agency,2026-07-01,D1,AG0020,Net Case Count - Agency,386.000000,2026-07-02T05:13:07.346Z,null
+Agency-ba12efd5-67ae-4e72-96bf-060b3d642347,CN,China,CN-Agency,Agency,2026-07-01,D1,AG0043,New Recruits 3M Activation #,549.000000,2026-07-02T05:13:07.346Z,null
+Agency-19fe06fb-3d41-4969-acd2-15f0b35dc171,CN,China,CN-Agency,Agency,2026-07-01,D1,AG0016,# of 1-Month Active Agents,335.000000,2026-07-02T05:13:07.346Z,null
+Agency-0f96ac36-b8f1-420e-b21e-ba287b919f5c,CN,China,CN-Agency,Agency,2026-07-01,D1,AG0041,# of 6-90 agents,65.000000,2026-07-02T05:13:07.346Z,null
+Agency-33002747-a6ef-49c5-b0ec-e5d29b658caf,CN,China,CN-Agency,Agency,2026-07-01,D1,AG0055,# of Active Recruiting Leaders,3.000000,2026-07-02T05:13:07.346Z,null
+Agency-8acfd219-e0fe-4f53-9b36-dc1d195e4028,CN,China,CN-Agency,Agency,2026-07-08,D1,AG0041,# of 6-90 agents,72.000000,2026-07-09T05:12:46.576Z,null
+Agency-6f62863c-b466-4316-8a5f-81cffc3e2e5e,CN,China,CN-Agency,Agency,2026-07-08,D1,AG0055,# of Active Recruiting Leaders,14.000000,2026-07-09T05:12:46.576Z,null
+Agency-7a7724dd-d02b-4af0-bf42-00a350f3f997,CN,China,CN-Agency,Agency,2026-07-08,D1,AG0016,# of 1-Month Active Agents,1425.000000,2026-07-09T05:12:46.576Z,null
+Agency-526b8e39-6391-438e-89ab-f6d5d86f7cf0,CN,China,CN-Agency,Agency,2026-07-08,D1,AG0020,Net Case Count - Agency,2002.000000,2026-07-09T05:12:46.576Z,null
+Agency-b99385e9-0b63-43f5-b614-a626205673c5,CN,China,CN-Agency,Agency,2026-07-08,D1,AG0038,New recruits,34.000000,2026-07-09T05:12:46.576Z,null
+Agency-3855e935-45b3-4600-b5a0-ebf29a240046,CN,China,CN-Agency,Agency,2026-07-08,D1,AG0043,New Recruits 3M Activation #,566.000000,2026-07-09T05:12:46.576Z,null
+Agency-61f56b2a-aed2-4959-89ef-c7cbd97939e1,CN,China,CN-Agency,Agency,2026-06-11,D1,AG0041,# of 6-90 agents,56.000000,null,null
+Agency-8385ac3d-b82c-4ec8-a0a5-5511cc62c33c,CN,China,CN-Agency,Agency,2026-06-11,D1,AG0055,# of Active Recruiting Leaders,60.000000,null,null
+Agency-ac6c65ba-e762-44dc-ad10-12a41143e36b,CN,China,CN-Agency,Agency,2026-06-11,D1,AG0020,Net Case Count - Agency,2690.000000,null,null
+Agency-6035cf01-a6d3-4244-89dc-72bbc917c572,CN,China,CN-Agency,Agency,2026-06-11,D1,AG0043,New Recruits 3M Activation #,489.000000,null,null
+Agency-df6a31f0-9ab0-4ff7-8a34-0551200a95a9,CN,China,CN-Agency,Agency,2026-06-11,D1,AG0038,New recruits,103.000000,null,null
+Agency-7176fe4d-0250-474b-92cb-93a8cbc585d2,CN,China,CN-Agency,Agency,2026-06-11,D1,AG0016,# of 1-Month Active Agents,1800.000000,null,null
+Agency-36b05f21-361e-4f21-a605-6f21d941dfeb,CN,China,CN-Agency,Agency,2026-07-20,D1,AG0043,New Recruits 3M Activation #,602.000000,2026-07-21T05:13:45.235Z,null
+Agency-31d2762f-5d70-494c-bdeb-e4be98840987,CN,China,CN-Agency,Agency,2026-07-20,D1,AG0016,# of 1-Month Active Agents,2388.000000,2026-07-21T05:13:45.235Z,null
+Agency-d8220dbf-a06b-4001-bc75-e6c09f514cdb,CN,China,CN-Agency,Agency,2026-07-20,D1,AG0038,New recruits,127.000000,2026-07-21T05:13:45.235Z,null
+Agency-1ac9c965-1027-4222-9953-a31fc8306ace,CN,China,CN-Agency,Agency,2026-07-20,D1,AG0020,Net Case Count - Agency,3860.000000,2026-07-21T05:13:45.235Z,null
+Agency-85a9ca57-e443-4545-9d78-bb9ac9001d33,CN,China,CN-Agency,Agency,2026-07-20,D1,AG0041,# of 6-90 agents,76.000000,2026-07-21T05:13:45.235Z,null
+Agency-6862ff57-39d9-4224-ac12-cc29e65fe903,CN,China,CN-Agency,Agency,2026-07-20,D1,AG0055,# of Active Recruiting Leaders,47.000000,2026-07-21T05:13:45.235Z,null
+Agency-0e69fda6-9693-4e8f-8b60-6b163992149a,CN,China,CN-Agency,Agency,2026-08-03,D1,AG0038,New recruits,13.000000,2026-08-04T05:08:04.075Z,null
+Agency-49aa21e8-6a6f-4b56-9515-134445c36c25,CN,China,CN-Agency,Agency,2026-08-03,D1,AG0041,# of 6-90 agents,48.000000,2026-08-04T05:08:04.075Z,null
+Agency-b8193498-6187-475c-b010-3dab9636cc98,CN,China,CN-Agency,Agency,2026-08-03,D1,AG0016,# of 1-Month Active Agents,400.000000,2026-08-04T05:08:04.075Z,null
+Agency-2f84f035-1983-421c-8af5-552b7513a691,CN,China,CN-Agency,Agency,2026-08-03,D1,AG0020,Net Case Count - Agency,458.000000,2026-08-04T05:08:04.075Z,null
+Agency-80ba5ae6-2107-4c5e-ab9d-004e5a6994dc,CN,China,CN-Agency,Agency,2026-08-03,D1,AG0043,New Recruits 3M Activation #,471.000000,2026-08-04T05:08:04.075Z,null
+Agency-3ca4664f-ac9c-44bb-80d9-f62ee974613e,CN,China,CN-Agency,Agency,2026-08-03,D1,AG0055,# of Active Recruiting Leaders,6.000000,2026-08-04T05:08:04.075Z,null
+Agency-7c234b83-3536-4819-a0e2-dbdfbe0505a5,CN,China,CN-Agency,Agency,2026-06-16,D1,AG0041,# of 6-90 agents,62.000000,null,null
+Agency-d03764a6-1ad3-44fc-b782-7b7aae1fcfc5,CN,China,CN-Agency,Agency,2026-06-16,D1,AG0043,New Recruits 3M Activation #,506.000000,null,null
+Agency-d55a4f5b-fceb-4a93-8837-98291c63c651,CN,China,CN-Agency,Agency,2026-06-16,D1,AG0055,# of Active Recruiting Leaders,72.000000,null,null
+Agency-96907c45-336c-46fe-926b-000f6dadda56,CN,China,CN-Agency,Agency,2026-06-16,D1,AG0016,# of 1-Month Active Agents,2269.000000,null,null
+Agency-b2e4e592-c415-4ec7-9988-489784a81eaa,CN,China,CN-Agency,Agency,2026-06-16,D1,AG0020,Net Case Count - Agency,3733.000000,null,null
+Agency-432e00e0-d660-41cd-9fed-3c4250af82c9,CN,China,CN-Agency,Agency,2026-06-16,D1,AG0038,New recruits,130.000000,null,null
+Agency-a3684c28-2143-4ea3-85ef-c114145bf8fa,CN,China,CN-Agency,Agency,2026-06-14,D1,AG0038,New recruits,110.000000,null,null
+Agency-87b2d843-8597-4829-b0dc-3f5c0e2deddb,CN,China,CN-Agency,Agency,2026-06-14,D1,AG0020,Net Case Count - Agency,3186.000000,null,null
+Agency-81e3d526-cb95-411a-b34f-fda6adf0f787,CN,China,CN-Agency,Agency,2026-06-14,D1,AG0016,# of 1-Month Active Agents,2027.000000,null,null
+Agency-152d4b50-72ce-4c74-9b5e-bc47506ab728,CN,China,CN-Agency,Agency,2026-06-14,D1,AG0041,# of 6-90 agents,59.000000,null,null
+Agency-ca385a79-4736-458f-988b-2689b570d285,CN,China,CN-Agency,Agency,2026-06-14,D1,AG0055,# of Active Recruiting Leaders,63.000000,null,null
+Agency-807c7989-293d-41d9-b165-85cd97579268,CN,China,CN-Agency,Agency,2026-06-14,D1,AG0043,New Recruits 3M Activation #,495.000000,null,null
+Agency-186478ee-ba8a-4d15-bf3b-3a0319c8a4ee,CN,China,CN-Agency,Agency,2026-06-04,D1,AG0016,# of 1-Month Active Agents,805.000000,null,null
+Agency-c38f8540-b0e0-4bc6-914b-17f36779989d,CN,China,CN-Agency,Agency,2026-06-04,D1,AG0041,# of 6-90 agents,49.000000,null,null
+Agency-0bc46497-bb7a-460c-950c-f521c558e4c9,CN,China,CN-Agency,Agency,2026-06-04,D1,AG0038,New recruits,31.000000,null,null
+Agency-05603199-3bde-4a39-93a1-82cb92dc382f,CN,China,CN-Agency,Agency,2026-06-04,D1,AG0055,# of Active Recruiting Leaders,18.000000,null,null
+Agency-0df968f3-fb75-40d4-a21e-dec0a5c424b6,CN,China,CN-Agency,Agency,2026-06-04,D1,AG0020,Net Case Count - Agency,1017.000000,null,null
+Agency-9a275155-775d-415b-abb3-6eef76343443,CN,China,CN-Agency,Agency,2026-06-04,D1,AG0043,New Recruits 3M Activation #,446.000000,null,null
+Agency-28d60a90-eb40-4217-88ec-333dc51c8271,CN,China,CN-Agency,Agency,2026-06-05,D1,AG0020,Net Case Count - Agency,1261.000000,null,null
+Agency-be1125cd-3373-4481-876d-bc30ac4d7f6c,CN,China,CN-Agency,Agency,2026-06-05,D1,AG0038,New recruits,49.000000,null,null
+Agency-e20cab86-4d11-4fdb-91b6-fe1b68e070b3,CN,China,CN-Agency,Agency,2026-06-05,D1,AG0043,New Recruits 3M Activation #,451.000000,null,null
+Agency-2a7d4ee8-63d2-402e-aaf5-7033f6733183,CN,China,CN-Agency,Agency,2026-06-05,D1,AG0016,# of 1-Month Active Agents,972.000000,null,null
+Agency-c4a8be97-6ce6-4de0-847f-a32b8801a8a5,CN,China,CN-Agency,Agency,2026-06-05,D1,AG0041,# of 6-90 agents,51.000000,null,null
+Agency-05a9911a-e935-4110-a138-5a6b3da103d6,CN,China,CN-Agency,Agency,2026-06-05,D1,AG0055,# of Active Recruiting Leaders,31.000000,null,null
+Agency-d268f95b-4357-4189-a2eb-6f940fd264bb,CN,China,CN-Agency,Agency,2026-06-09,D1,AG0020,Net Case Count - Agency,2085.000000,null,null
+Agency-061ff6ee-884e-4ffb-a833-bbe042c655f6,CN,China,CN-Agency,Agency,2026-06-09,D1,AG0038,New recruits,78.000000,null,null
+Agency-0ecd1a91-a9bf-451d-bd1f-3c0ba29c4f4f,CN,China,CN-Agency,Agency,2026-06-09,D1,AG0041,# of 6-90 agents,53.000000,null,null
+Agency-8f4a6ce2-0425-4259-b39f-536b857429b8,CN,China,CN-Agency,Agency,2026-06-09,D1,AG0043,New Recruits 3M Activation #,463.000000,null,null
+Agency-273793af-4ae6-4594-8642-c9858b5e5f14,CN,China,CN-Agency,Agency,2026-06-09,D1,AG0016,# of 1-Month Active Agents,1472.000000,null,null
+Agency-92928fa5-276d-42b4-a9ee-406e22456007,CN,China,CN-Agency,Agency,2026-06-09,D1,AG0055,# of Active Recruiting Leaders,46.000000,null,null
+Agency-33bda084-eee8-4f5d-ace2-70d652dece23,CN,China,CN-Agency,Agency,2026-06-21,D1,AG0020,Net Case Count - Agency,4682.000000,null,null
+Agency-44c84b61-05d8-4c53-8060-587d8f1203f2,CN,China,CN-Agency,Agency,2026-06-21,D1,AG0016,# of 1-Month Active Agents,2657.000000,null,null
+Agency-b2aa7e91-5b64-446c-ae30-8f05664a2f40,CN,China,CN-Agency,Agency,2026-06-21,D1,AG0038,New recruits,166.000000,null,null
+Agency-95bd8352-833c-4d33-a16f-05a58f799d7e,CN,China,CN-Agency,Agency,2026-06-21,D1,AG0043,New Recruits 3M Activation #,525.000000,null,null
+Agency-a64e2087-a92b-4337-a5e2-29d7912bdc73,CN,China,CN-Agency,Agency,2026-06-21,D1,AG0041,# of 6-90 agents,66.000000,null,null
+Agency-38efbd9a-6813-43a4-a134-b51726411eb6,CN,China,CN-Agency,Agency,2026-06-21,D1,AG0055,# of Active Recruiting Leaders,89.000000,null,null
+Agency-248014d6-e96c-4416-a73f-2c9ed5d12be6,CN,China,CN-Agency,Agency,2026-06-06,D1,AG0038,New recruits,49.000000,null,null
+Agency-0343b1ab-8acd-4ea4-832c-29ce98ace96a,CN,China,CN-Agency,Agency,2026-06-06,D1,AG0016,# of 1-Month Active Agents,1081.000000,null,null
+Agency-cf66edd3-f8e5-453f-a088-1ff7c0f31696,CN,China,CN-Agency,Agency,2026-06-06,D1,AG0041,# of 6-90 agents,51.000000,null,null
+Agency-6f73713b-d71d-4ef7-8467-b622b27d05b3,CN,China,CN-Agency,Agency,2026-06-06,D1,AG0055,# of Active Recruiting Leaders,31.000000,null,null
+Agency-aacffaaf-9d8e-411a-9e3f-97f3817f794e,CN,China,CN-Agency,Agency,2026-06-06,D1,AG0020,Net Case Count - Agency,1425.000000,null,null
+Agency-f2d93353-a787-422b-976d-f2c09f26a60c,CN,China,CN-Agency,Agency,2026-06-06,D1,AG0043,New Recruits 3M Activation #,452.000000,null,null
+Agency-250d9d6d-29c4-4d15-8e0d-a36a91eb83c5,CN,China,CN-Agency,Agency,2026-06-20,D1,AG0043,New Recruits 3M Activation #,524.000000,null,null
+Agency-80597a8e-ca4d-45d4-acb9-b959be16d758,CN,China,CN-Agency,Agency,2026-06-20,D1,AG0016,# of 1-Month Active Agents,2607.000000,null,null
+Agency-dc8b177e-fd28-4e7d-8a79-29ca84eb4d47,CN,China,CN-Agency,Agency,2026-06-20,D1,AG0041,# of 6-90 agents,66.000000,null,null
+Agency-6952f7ce-77e3-4225-83ff-49a6dc80e8a8,CN,China,CN-Agency,Agency,2026-06-20,D1,AG0055,# of Active Recruiting Leaders,89.000000,null,null
+Agency-82ade3fd-e633-4769-ae4c-103585e882cb,CN,China,CN-Agency,Agency,2026-06-20,D1,AG0020,Net Case Count - Agency,4564.000000,null,null
+Agency-8826f95b-6e02-43dc-8407-1191b1c86e14,CN,China,CN-Agency,Agency,2026-06-20,D1,AG0038,New recruits,166.000000,null,null
+Agency-5dcedfc2-7d3c-47ca-86ee-6e34737c034d,CN,China,CN-Agency,Agency,2026-06-22,D1,AG0055,# of Active Recruiting Leaders,94.000000,null,null
+Agency-b59cca03-cf8c-4b06-be2d-7ffe8733f89e,CN,China,CN-Agency,Agency,2026-06-22,D1,AG0016,# of 1-Month Active Agents,2768.000000,null,null
+Agency-b2a5add5-a059-4d0f-9032-b819f116749c,CN,China,CN-Agency,Agency,2026-06-22,D1,AG0041,# of 6-90 agents,70.000000,null,null
+Agency-c4b81d41-7bc6-4392-8e8e-dfb68772163a,CN,China,CN-Agency,Agency,2026-06-22,D1,AG0043,New Recruits 3M Activation #,534.000000,null,null
+Agency-5beaf3d1-0b68-45a5-9a31-db540d45ce20,CN,China,CN-Agency,Agency,2026-06-22,D1,AG0020,Net Case Count - Agency,5000.000000,null,null
+Agency-068d6e76-ab99-49df-b864-606dab106b9c,CN,China,CN-Agency,Agency,2026-06-22,D1,AG0038,New recruits,185.000000,null,null
+Agency-a77eed9f-2c91-4a3c-8b9c-b5aa999b148a,CN,China,CN-Agency,Agency,2026-06-08,D1,AG0020,Net Case Count - Agency,1802.000000,null,null
+Agency-ef49a90e-7793-46b5-8a2b-11a22c863a30,CN,China,CN-Agency,Agency,2026-06-08,D1,AG0041,# of 6-90 agents,52.000000,null,null
+Agency-ac2f92de-4898-4ad8-9930-ded764118da0,CN,China,CN-Agency,Agency,2026-06-08,D1,AG0043,New Recruits 3M Activation #,459.000000,null,null
+Agency-94b6700a-aac8-4424-ad5b-61615a08c747,CN,China,CN-Agency,Agency,2026-06-08,D1,AG0055,# of Active Recruiting Leaders,39.000000,null,null
+Agency-bb0703b7-3b50-4537-bd1d-8786c3bcd92d,CN,China,CN-Agency,Agency,2026-06-08,D1,AG0016,# of 1-Month Active Agents,1309.000000,null,null
+Agency-be0ce2a0-e491-427a-90a1-8d212cd3bcdc,CN,China,CN-Agency,Agency,2026-06-08,D1,AG0038,New recruits,66.000000,null,null
+Agency-c0a2ccc6-1513-47e0-99e9-330be5ac427a,CN,China,CN-Agency,Agency,2026-06-03,D1,AG0043,New Recruits 3M Activation #,443.000000,null,null
+Agency-2e68745a-9b99-4d71-b613-effb6e7e0857,CN,China,CN-Agency,Agency,2026-06-03,D1,AG0055,# of Active Recruiting Leaders,14.000000,null,null
+Agency-b99bc9a8-95c7-41dc-905f-452a20c979b6,CN,China,CN-Agency,Agency,2026-06-03,D1,AG0020,Net Case Count - Agency,752.000000,null,null
+Agency-01356c18-7d43-4052-bd1b-7787c03e8eaf,CN,China,CN-Agency,Agency,2026-06-03,D1,AG0041,# of 6-90 agents,49.000000,null,null
+Agency-18ae0722-81cc-4951-8496-a0541c00f0fb,CN,China,CN-Agency,Agency,2026-06-03,D1,AG0016,# of 1-Month Active Agents,620.000000,null,null
+Agency-b636fbd8-0c64-44da-85da-ff9699cfcd2c,CN,China,CN-Agency,Agency,2026-06-03,D1,AG0038,New recruits,24.000000,null,null
+Agency-e89c2002-d920-45b3-abd8-67d38a7ce29d,CN,China,CN-Agency,Agency,2026-06-13,D1,AG0016,# of 1-Month Active Agents,1909.000000,null,null
+Agency-cae2efe3-b9da-4894-a708-aeeb67683d90,CN,China,CN-Agency,Agency,2026-06-13,D1,AG0043,New Recruits 3M Activation #,495.000000,null,null
+Agency-d50e71ad-519c-4a79-b43f-18f19f395af9,CN,China,CN-Agency,Agency,2026-06-13,D1,AG0038,New recruits,110.000000,null,null
+Agency-51efb3ed-8dea-41ad-9ae5-aed81bd74444,CN,China,CN-Agency,Agency,2026-06-13,D1,AG0041,# of 6-90 agents,58.000000,null,null
+Agency-6b140043-7c6b-42d8-8f53-a8fe101faa31,CN,China,CN-Agency,Agency,2026-06-13,D1,AG0055,# of Active Recruiting Leaders,63.000000,null,null
+Agency-d00fc47e-5497-418a-8c27-3071590debde,CN,China,CN-Agency,Agency,2026-06-13,D1,AG0020,Net Case Count - Agency,3006.000000,null,null
+Agency-5cc97871-23fd-4366-8723-05006cdc398f,CN,China,CN-Agency,Agency,2026-06-10,D1,AG0043,New Recruits 3M Activation #,463.000000,null,null
+Agency-3ba93170-267c-42d5-9461-ad9d08506d4e,CN,China,CN-Agency,Agency,2026-06-10,D1,AG0055,# of Active Recruiting Leaders,46.000000,null,null
+Agency-72203dc3-369c-4dc4-8ed0-f937a8d33bc0,CN,China,CN-Agency,Agency,2026-06-10,D1,AG0016,# of 1-Month Active Agents,1472.000000,null,null
+Agency-405ca542-287a-4dbc-9553-46f0824b153a,CN,China,CN-Agency,Agency,2026-06-10,D1,AG0020,Net Case Count - Agency,2085.000000,null,null
+Agency-d483f926-3cec-451e-b504-9d3c55445bbc,CN,China,CN-Agency,Agency,2026-06-10,D1,AG0038,New recruits,78.000000,null,null
+Agency-68b4a79a-b4bc-410f-8a59-9084e994d235,CN,China,CN-Agency,Agency,2026-06-10,D1,AG0041,# of 6-90 agents,53.000000,null,null
+Agency-016b14c6-7a1c-4171-9397-22d0bb05d356,CN,China,CN-Agency,Agency,2026-06-01,D1,AG0041,# of 6-90 agents,48.000000,null,null
+Agency-5a66ac2f-a64b-40ee-ac15-04a06ba2d320,CN,China,CN-Agency,Agency,2026-06-01,D1,AG0043,New Recruits 3M Activation #,438.000000,null,null
+Agency-e8c794ca-b688-4278-b618-f8ffedb31a38,CN,China,CN-Agency,Agency,2026-06-01,D1,AG0038,New recruits,6.000000,null,null
+Agency-9b96a4c3-1f68-4319-be54-411a146649f4,CN,China,CN-Agency,Agency,2026-06-01,D1,AG0016,# of 1-Month Active Agents,234.000000,null,null
+Agency-f23fa50e-3ff7-4759-a1db-2904d52b3b2a,CN,China,CN-Agency,Agency,2026-06-01,D1,AG0055,# of Active Recruiting Leaders,4.000000,null,null
+Agency-b7e83e0f-cf08-4699-b49d-a335775e1e21,CN,China,CN-Agency,Agency,2026-06-01,D1,AG0020,Net Case Count - Agency,270.000000,null,null
+Agency-72011380-749b-471a-ab66-86a7ddd02863,CN,China,CN-Agency,Agency,2026-06-12,D1,AG0020,Net Case Count - Agency,2940.000000,null,null
+Agency-453c992f-f3dd-4136-9a2d-21f0a4511129,CN,China,CN-Agency,Agency,2026-06-12,D1,AG0055,# of Active Recruiting Leaders,63.000000,null,null
+Agency-aafdedef-8f55-48a1-82bf-f10293d11cb3,CN,China,CN-Agency,Agency,2026-06-12,D1,AG0043,New Recruits 3M Activation #,493.000000,null,null
+Agency-f9ca1f9f-4034-4610-98a5-1a141cc78d07,CN,China,CN-Agency,Agency,2026-06-12,D1,AG0016,# of 1-Month Active Agents,1909.000000,null,null
+Agency-17cafb64-c7e7-48ab-9775-3c73fcf7579c,CN,China,CN-Agency,Agency,2026-06-12,D1,AG0038,New recruits,110.000000,null,null
+Agency-33d8897c-6d36-4051-94d6-8bf56ca938af,CN,China,CN-Agency,Agency,2026-06-12,D1,AG0041,# of 6-90 agents,57.000000,null,null
+Agency-43156e97-a74e-47ba-9b4b-eb4a4b9a875a,CN,China,CN-Agency,Agency,2026-05-01,D1,AG0016,# of 1-Month Active Agents,106.000000,null,null
+Agency-f52729e6-9ac5-4bed-991b-22cef0715fb0,CN,China,CN-Agency,Agency,2026-05-01,D1,AG0020,Net Case Count - Agency,112.000000,null,null
+Agency-27b29b57-9be8-4ac5-bab7-f5cdc4affdb0,CN,China,CN-Agency,Agency,2026-05-01,D1,AG0041,# of 6-90 agents,44.000000,null,null
+Agency-887f7520-4960-4130-97f7-dd4c7c41aad1,CN,China,CN-Agency,Agency,2026-05-01,D1,AG0043,New Recruits 3M Activation #,361.000000,null,null
+Agency-650ff8cc-feab-4c2f-9402-1a805f9f86e6,CN,China,CN-Agency,Agency,2026-06-15,D1,AG0016,# of 1-Month Active Agents,2027.000000,null,null
+Agency-af8a2d81-ee1a-4171-900e-612697f3d34c,CN,China,CN-Agency,Agency,2026-06-15,D1,AG0020,Net Case Count - Agency,3289.000000,null,null
+Agency-5b18b6e8-bf92-457a-9a6f-f36804b7fda9,CN,China,CN-Agency,Agency,2026-06-15,D1,AG0055,# of Active Recruiting Leaders,70.000000,null,null
+Agency-ad2149d5-6c7c-46a0-970e-fdd6eadd1a4a,CN,China,CN-Agency,Agency,2026-06-15,D1,AG0038,New recruits,120.000000,null,null
+Agency-d12bde30-e1cc-46df-a0df-b9ef5df845f1,CN,China,CN-Agency,Agency,2026-06-15,D1,AG0043,New Recruits 3M Activation #,500.000000,null,null
+Agency-e6da1d83-4b08-4b13-93a6-8b85bc388735,CN,China,CN-Agency,Agency,2026-06-15,D1,AG0041,# of 6-90 agents,60.000000,null,null
+Agency-13c85e19-a11d-4d50-9333-4f202cf1fc14,CN,China,CN-Agency,Agency,2026-06-17,D1,AG0020,Net Case Count - Agency,3993.000000,null,null
+Agency-85084245-56c1-4e9a-9be6-fe5d650e8546,CN,China,CN-Agency,Agency,2026-06-17,D1,AG0043,New Recruits 3M Activation #,511.000000,null,null
+Agency-1ef2e2d2-d548-463d-b1c4-17ba333bb02e,CN,China,CN-Agency,Agency,2026-06-17,D1,AG0055,# of Active Recruiting Leaders,76.000000,null,null
+Agency-90b340a3-2c88-40de-b81e-cf7d52ab9283,CN,China,CN-Agency,Agency,2026-06-17,D1,AG0016,# of 1-Month Active Agents,2369.000000,null,null
+Agency-66600567-66c7-4a26-aac5-b5c4910f6cc2,CN,China,CN-Agency,Agency,2026-06-17,D1,AG0038,New recruits,141.000000,null,null
+Agency-aa6d4f6b-3f7b-49ed-bba2-784c46bd9867,CN,China,CN-Agency,Agency,2026-06-17,D1,AG0041,# of 6-90 agents,64.000000,null,null

@@ -1,0 +1,12 @@
+1. SG:
+select 'SG' as market,Substr(CAS_DT,1,10),case when DAY_TYPE='W' THEN 'Y' else 'N' end as is_business_day from sg_prod_catalog.sg_curated_dist_agency_kpi_db.tcalendar where 
+-- DAY_TYPE='W'
+-- AND 
+CAS_DT>='2026-01-01'
+
+2. HK:
+
+select 'HK' as market, calendar_date, case when holiday_type is null then 'Y' ELSE 'N' end as is_business_day  from hk_prod_catalog.hk_curated_cdm_db.bi_date_detail
+where 
+-- date_year=2026--reporting year and 
+calendar_date>='2026-01-01'
