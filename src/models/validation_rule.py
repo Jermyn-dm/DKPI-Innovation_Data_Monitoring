@@ -12,6 +12,8 @@ ValidationRuleType = Literal[
     "VALUE_GREATER_THAN_ZERO",
     "CHANGE_VS_PREVIOUS_PERIOD_WITHIN_PERCENT",
     "DEVIATION_FROM_STANDARD_WITHIN_PERCENT",
+    "EDL_MATCH_ANAPLAN",
+    "EDL_MATCH_PBI",
 ]
 
 
@@ -30,6 +32,7 @@ class KPIValidationRule(BaseModel):
     value_column: str | None = None
     threshold_percent: float | None = Field(default=None, ge=0)
     standard_value: float | None = None
+    comparison_source: Literal["ANAPLAN", "PBI"] | None = None
     enabled: bool = True
     effective_from: date | None = None
     effective_to: date | None = None
@@ -42,6 +45,8 @@ class KPIValidationRule(BaseModel):
             "VALUE_GREATER_THAN_ZERO",
             "CHANGE_VS_PREVIOUS_PERIOD_WITHIN_PERCENT",
             "DEVIATION_FROM_STANDARD_WITHIN_PERCENT",
+            "EDL_MATCH_ANAPLAN",
+            "EDL_MATCH_PBI",
         } and not self.value_column:
             raise ValueError("value_column is required for value-based validation rules")
         if self.enabled and self.rule_type in {
@@ -49,4 +54,10 @@ class KPIValidationRule(BaseModel):
             "DEVIATION_FROM_STANDARD_WITHIN_PERCENT",
         } and self.threshold_percent is None:
             raise ValueError("threshold_percent is required for comparison validation rules")
+        expected_source = {
+            "EDL_MATCH_ANAPLAN": "ANAPLAN",
+            "EDL_MATCH_PBI": "PBI",
+        }.get(self.rule_type)
+        if expected_source and self.comparison_source not in {None, expected_source}:
+            raise ValueError(f"comparison_source must be {expected_source} for {self.rule_type}")
         return self

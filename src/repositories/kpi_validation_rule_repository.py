@@ -26,7 +26,7 @@ class KPIValidationRuleRepository(BaseConfigurationRepository):
         normalized = dict(record)
         for field in ("enabled",):
             normalized[field] = str(normalized.get(field, "N")).strip().upper() == "Y"
-        for field in ("kpi_id", "value_column", "threshold_percent", "standard_value", "effective_from", "effective_to", "remark"):
+        for field in ("kpi_id", "value_column", "threshold_percent", "standard_value", "comparison_source", "effective_from", "effective_to", "remark"):
             if pd.isna(normalized.get(field)):
                 normalized[field] = None
         return normalized

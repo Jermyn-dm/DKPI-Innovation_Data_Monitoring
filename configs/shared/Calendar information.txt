@@ -10,3 +10,7 @@ select 'HK' as market, calendar_date, case when holiday_type is null then 'Y' EL
 where 
 -- date_year=2026--reporting year and 
 calendar_date>='2026-01-01'
+
+3. JP:
+select 'JP' as market, Date as calendar_date, case when Month_Nth_businessDay>0 then 'Y' else 'N' end as is_business_day from jp_prod_catalog.jp_curated_calendar_db.business_calendar
+where Date between '2026-07-01' and '2028-07-01'
